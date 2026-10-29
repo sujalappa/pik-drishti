@@ -176,7 +176,8 @@ fill(sh["Text 28"], [
     "Relief & Rehabilitation Department, GoM",
     "Agriculture Department (taluka agriculture officers)",
     "MRSAC, Nagpur (state remote sensing centre)",
-    "District collectors; IIIT Nagpur",
+    "District collectors",
+    "IIIT Nagpur",
 ], size=9, bullets=True)
 
 # ---------------------------------------------------------------- slide 5: impact

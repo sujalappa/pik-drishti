@@ -1,0 +1,366 @@
+﻿Unit,District,Drought category,Trigger-1,Rain (mm),Normal (mm),Rain deviation %,Longest dry spell (weeks),Dry spell from,NDVI deviation %,NDWI deviation %,VCI,Remote sensing,MAI % of normal,Soil moisture,Cropped area deviation %,Agriculture
+Mohol,Solapur,moderate,True,281.0,451.0,-37.7,4,2026-08-24,-9.8,-21.2,58.4,moderate,70.3,mild,-25.5,moderate
+Sangola,Solapur,moderate,True,214.0,342.0,-37.3,3,2026-06-29,-16.6,-34.6,50.6,severe,62.2,mild,-42.5,severe
+Mangalvedhe,Solapur,moderate,True,239.0,376.0,-36.3,4,2026-08-24,-18.4,-36.1,41.3,severe,66.1,mild,-20.6,moderate
+Atpadi,Sangali,moderate,True,304.0,465.0,-34.6,3,2026-08-24,-7.7,-22.9,69.2,moderate,64.3,mild,-39.5,severe
+Solapur North,Solapur,moderate,True,374.0,540.0,-30.7,3,2026-08-24,-10.8,-21.7,52.6,moderate,65.7,mild,-37.0,severe
+Jath,Sangali,moderate,True,274.0,387.0,-29.3,4,2026-08-24,-14.6,-33.7,54.3,severe,61.6,mild,-42.1,severe
+Pune City,Pune,moderate,True,633.0,692.0,-8.6,4,2026-08-24,-8.2,-23.6,38.6,moderate,85.6,normal,-44.3,severe
+Nevasa,Ahilyanagar,normal,True,240.0,490.0,-51.1,7,2026-08-03,0.6,12.5,77.3,normal,87.2,normal,4.2,normal
+Gangapur,Chhatrapati Sambhajinagar,normal,True,253.0,512.0,-50.6,8,2026-08-03,-9.8,-11.1,57.8,normal,83.8,normal,-1.5,normal
+Chauka,Chhatrapati Sambhajinagar,normal,True,332.0,665.0,-50.2,8,2026-08-03,2.0,13.3,66.0,normal,88.0,normal,4.4,normal
+Fulambari,Chhatrapati Sambhajinagar,normal,True,323.0,641.0,-49.6,7,2026-08-03,7.5,28.9,83.1,normal,87.4,normal,0.6,normal
+Aurangabad,Chhatrapati Sambhajinagar,normal,True,328.0,650.0,-49.5,8,2026-08-03,-6.4,-7.8,44.2,normal,86.4,normal,-0.2,normal
+Paithan,Chhatrapati Sambhajinagar,normal,True,296.0,587.0,-49.5,6,2026-08-17,-7.6,-8.3,60.5,normal,83.4,normal,-3.0,normal
+Rahata,Ahilyanagar,normal,True,265.0,524.0,-49.4,7,2026-08-03,6.6,29.7,75.1,normal,93.6,normal,14.0,normal
+Khuldabad,Chhatrapati Sambhajinagar,normal,True,318.0,623.0,-48.9,8,2026-08-03,7.3,22.2,86.0,normal,91.5,normal,0.8,normal
+Shrirampur,Ahilyanagar,normal,True,267.0,522.0,-48.7,7,2026-08-03,2.0,15.9,73.9,normal,88.9,normal,6.8,normal
+Shevgaon,Ahilyanagar,normal,True,276.0,533.0,-48.3,6,2026-08-17,-11.3,-16.3,57.3,normal,79.8,normal,-26.4,moderate
+Kannad,Chhatrapati Sambhajinagar,normal,True,329.0,633.0,-48.0,8,2026-08-03,3.0,16.0,77.7,normal,91.9,normal,0.8,normal
+Part of Vaijapur,Chhatrapati Sambhajinagar,normal,True,296.0,568.0,-47.9,8,2026-08-03,-1.4,8.4,73.3,normal,89.5,normal,3.6,normal
+Vaijapur,Chhatrapati Sambhajinagar,normal,True,279.0,519.0,-46.3,8,2026-08-03,-8.8,-14.1,58.8,normal,90.3,normal,1.6,normal
+Deulgaon-Raja,Buldana,normal,True,378.0,701.0,-46.1,7,2026-08-03,8.4,36.7,87.6,normal,83.5,normal,2.2,normal
+Kopargaon,Ahilyanagar,normal,True,292.0,540.0,-46.0,7,2026-08-03,2.9,13.8,72.7,normal,95.4,normal,8.4,normal
+Badnapur,Jalna,normal,True,349.0,644.0,-45.8,4,2026-08-17,1.6,12.1,70.8,normal,87.1,normal,2.1,normal
+Part of Jafrabad,Jalna,normal,True,369.0,680.0,-45.8,4,2026-08-17,6.6,26.9,86.9,normal,85.2,normal,0.2,normal
+Sakri,Dhule,normal,True,422.0,774.0,-45.5,3,2026-08-17,-6.1,-9.2,62.3,normal,86.0,normal,-2.5,normal
+Sindkhed-Raja,Buldana,normal,True,383.0,701.0,-45.4,7,2026-08-03,1.7,19.7,70.5,normal,82.7,normal,2.3,normal
+Walwa,Sangali,normal,True,432.0,787.0,-45.1,3,2026-08-31,5.2,13.4,83.3,normal,89.9,normal,5.9,normal
+Ambad,Jalna,normal,True,343.0,621.0,-44.7,5,2026-08-17,-2.6,-2.1,57.7,normal,95.1,normal,8.4,normal
+Shirur-Kasar,Beed,normal,True,308.0,555.0,-44.6,5,2026-08-17,-11.7,-22.7,46.1,moderate,84.5,normal,-8.8,normal
+Nandgaon,Nashik,normal,True,314.0,565.0,-44.5,8,2026-08-03,-9.9,-11.7,44.6,normal,93.4,normal,12.7,normal
+Baglan,Nashik,normal,True,419.0,752.0,-44.3,3,2026-08-17,3.6,9.8,77.6,normal,87.6,normal,8.1,normal
+Jalna,Jalna,normal,True,359.0,643.0,-44.1,6,2026-08-03,-5.9,-4.6,48.4,normal,84.5,normal,6.3,normal
+Pathardi,Ahilyanagar,normal,True,272.0,485.0,-44.0,5,2026-08-17,-10.6,-21.8,54.3,moderate,87.7,normal,-8.7,normal
+Palus,Sangali,normal,True,344.0,614.0,-43.9,3,2026-08-31,6.4,19.3,85.3,normal,89.9,normal,8.7,normal
+Parbhani,Parbhani,normal,True,445.0,790.0,-43.6,5,2026-08-10,5.2,36.7,77.9,normal,82.3,normal,0.5,normal
+Yevla,Nashik,normal,True,307.0,536.0,-42.8,7,2026-08-03,5.2,24.4,73.7,normal,90.8,normal,15.1,normal
+Pandharpur,Solapur,normal,True,221.0,385.0,-42.8,4,2026-08-24,-4.2,-2.0,66.3,normal,71.2,mild,2.5,normal
+Jafrabad,Jalna,normal,True,401.0,700.0,-42.7,4,2026-08-17,11.3,43.7,90.0,normal,83.3,normal,8.9,normal
+Manwat,Parbhani,normal,True,428.0,745.0,-42.6,6,2026-08-03,5.5,22.4,80.8,normal,89.3,normal,0.3,normal
+Rahuri,Ahilyanagar,normal,True,308.0,536.0,-42.5,7,2026-08-03,-0.1,12.6,71.4,normal,87.7,normal,6.2,normal
+Chikhaldara,Amravati,normal,True,577.0,1002.0,-42.5,5,2026-08-03,2.8,25.2,83.0,normal,85.3,normal,0.3,normal
+Malegaon,Nashik,normal,True,350.0,608.0,-42.5,3,2026-08-17,-9.2,-12.0,53.9,normal,87.2,normal,2.5,normal
+Malegaon,Washim,normal,True,438.0,762.0,-42.5,6,2026-08-03,-3.2,1.7,55.7,normal,79.1,normal,3.9,normal
+Barshitakli,Akola,normal,True,411.0,714.0,-42.4,6,2026-08-03,-12.4,-17.0,28.3,normal,75.6,normal,2.4,normal
+Chalisgaon,Jalgaon,normal,True,372.0,646.0,-42.4,6,2026-08-17,-8.4,-7.4,53.0,normal,91.3,normal,-1.7,normal
+Lonar,Buldana,normal,True,419.0,724.0,-42.1,7,2026-08-03,4.2,37.9,73.1,normal,82.5,normal,5.1,normal
+Mehkar,Buldana,normal,True,427.0,737.0,-42.0,7,2026-08-03,5.4,53.3,72.1,normal,81.6,normal,6.4,normal
+Hatkalangale,Kolhapur,normal,True,390.0,669.0,-41.7,3,2026-08-31,6.4,22.8,84.9,normal,90.3,normal,8.8,normal
+Basmath,Hingoli,normal,True,509.0,871.0,-41.6,5,2026-08-10,-2.2,16.1,52.9,normal,81.0,normal,0.9,normal
+Bhokardan,Jalna,normal,True,393.0,674.0,-41.6,4,2026-08-17,5.2,24.1,79.1,normal,84.6,normal,2.6,normal
+Purna,Parbhani,normal,True,499.0,852.0,-41.4,5,2026-08-10,-2.2,18.7,49.7,normal,82.8,normal,0.9,normal
+Mantha,Jalna,normal,True,404.0,689.0,-41.3,6,2026-08-03,-2.2,9.4,59.8,normal,84.3,normal,1.9,normal
+Karvir,Kolhapur,normal,True,555.0,945.0,-41.3,3,2026-08-31,6.4,24.9,80.9,normal,91.1,normal,5.7,normal
+Patoda,Beed,normal,True,307.0,522.0,-41.2,7,2026-08-03,-7.2,-25.7,50.3,moderate,76.5,normal,10.6,normal
+Sillod,Chhatrapati Sambhajinagar,normal,True,390.0,662.0,-41.0,6,2026-08-03,7.8,28.9,82.8,normal,85.3,normal,1.8,normal
+Jintur,Parbhani,normal,True,453.0,768.0,-41.0,6,2026-08-03,-1.0,18.8,58.4,normal,84.1,normal,1.8,normal
+Georai,Beed,normal,True,363.0,614.0,-40.8,4,2026-08-17,-11.8,-19.8,51.6,normal,89.3,normal,-10.1,normal
+Ghansavangi,Jalna,normal,True,388.0,652.0,-40.6,5,2026-08-17,-10.3,-13.2,44.0,normal,92.6,normal,3.0,normal
+Patur,Akola,normal,True,425.0,715.0,-40.5,6,2026-08-03,-5.4,2.1,48.5,normal,81.0,normal,0.8,normal
+Akola,Akola,normal,True,398.0,665.0,-40.2,5,2026-08-03,-4.6,3.0,55.6,normal,76.3,normal,3.1,normal
+Aundha,Hingoli,normal,True,507.0,848.0,-40.2,6,2026-08-03,-2.5,16.4,48.3,normal,84.0,normal,3.4,normal
+Beed,Beed,normal,True,368.0,614.0,-40.1,6,2026-08-03,-11.4,-27.8,46.4,moderate,85.7,normal,1.7,normal
+Ardhapur,Nanded,normal,True,539.0,900.0,-40.1,5,2026-08-10,-1.9,17.6,45.4,normal,80.3,normal,3.0,normal
+Pathri,Parbhani,normal,True,429.0,716.0,-40.1,5,2026-08-10,4.1,20.0,71.2,normal,95.7,normal,4.7,normal
+Niphad,Nashik,normal,True,369.0,615.0,-40.0,7,2026-08-03,13.2,36.8,86.3,normal,89.6,normal,12.2,normal
+Risod,Washim,normal,True,455.0,760.0,-40.0,7,2026-08-03,5.8,41.3,73.0,normal,84.6,normal,11.9,normal
+Deola,Nashik,normal,True,383.0,637.0,-39.9,3,2026-08-17,3.3,13.7,72.8,normal,91.3,normal,10.9,normal
+Dhule,Dhule,normal,True,413.0,686.0,-39.8,3,2026-08-17,-7.7,-10.4,53.5,normal,86.7,normal,3.1,normal
+Mangrulpir,Washim,normal,True,473.0,783.0,-39.7,5,2026-08-03,-11.0,-12.0,31.6,normal,79.2,normal,0.9,normal
+Chandvad,Nashik,normal,True,355.0,588.0,-39.6,7,2026-08-03,5.4,18.0,72.9,normal,87.8,normal,30.2,normal
+Akot,Akola,normal,True,418.0,689.0,-39.4,5,2026-08-03,2.0,18.2,78.3,normal,80.6,normal,1.5,normal
+Nanded,Nanded,normal,True,528.0,870.0,-39.4,4,2026-08-10,-3.2,15.0,43.9,normal,78.8,normal,1.8,normal
+Madha,Solapur,normal,True,253.0,418.0,-39.4,6,2026-08-10,-9.1,-19.9,65.5,normal,66.0,mild,-32.1,severe
+Washim,Washim,normal,True,499.0,819.0,-39.1,6,2026-08-03,-0.3,21.0,60.8,normal,83.6,normal,5.1,normal
+Telhara,Akola,normal,True,405.0,664.0,-39.0,5,2026-08-03,-4.1,2.6,62.1,normal,80.9,normal,1.0,normal
+Sengaon,Hingoli,normal,True,481.0,787.0,-39.0,6,2026-08-03,-0.3,27.2,57.8,normal,84.4,normal,7.6,normal
+Sangrampur,Buldana,normal,True,436.0,714.0,-38.9,3,2026-08-17,-7.2,-1.5,52.9,normal,79.3,normal,-0.1,normal
+Selu,Parbhani,normal,True,437.0,713.0,-38.7,6,2026-08-03,-4.1,-2.3,54.6,normal,87.2,normal,-0.2,normal
+Tasgaon,Sangali,normal,True,322.0,525.0,-38.6,5,2026-08-10,5.6,15.0,85.8,normal,85.1,normal,11.4,normal
+Majalgaon,Beed,normal,True,435.0,707.0,-38.4,6,2026-08-03,-2.9,3.2,52.1,normal,90.0,normal,3.6,normal
+Partur,Jalna,normal,True,416.0,675.0,-38.4,6,2026-08-03,-9.2,-10.2,44.7,normal,94.5,normal,2.2,normal
+Soygaon,Chhatrapati Sambhajinagar,normal,True,416.0,672.0,-38.2,4,2026-08-17,1.1,9.8,73.0,normal,84.3,normal,0.7,normal
+Bhadgaon,Jalgaon,normal,True,402.0,651.0,-38.2,4,2026-08-17,-5.2,-5.2,57.1,normal,85.1,normal,3.5,normal
+Panhala,Kolhapur,normal,True,758.0,1218.0,-37.8,3,2026-08-31,-0.4,1.5,63.2,normal,90.7,normal,0.2,normal
+Sonpeth,Parbhani,normal,True,478.0,767.0,-37.7,5,2026-08-10,1.9,14.1,71.4,normal,77.7,normal,0.3,normal
+Balapur,Akola,normal,True,388.0,619.0,-37.4,8,2026-08-03,-4.9,7.9,54.5,normal,76.7,normal,1.2,normal
+Daryapur,Amravati,normal,True,427.0,682.0,-37.4,5,2026-08-03,4.0,20.5,79.0,normal,76.6,normal,6.8,normal
+Ashti,Beed,normal,True,266.0,425.0,-37.4,5,2026-08-17,-6.4,-15.9,63.9,normal,73.4,mild,11.2,normal
+Navapur,Nandurbar,normal,True,535.0,856.0,-37.4,3,2026-08-17,-2.0,2.3,73.1,normal,87.2,normal,0.9,normal
+Chikli,Buldana,normal,True,459.0,728.0,-37.0,7,2026-08-03,11.7,86.2,80.8,normal,83.1,normal,8.4,normal
+Sangamner,Ahilyanagar,normal,True,383.0,606.0,-36.9,7,2026-08-03,2.3,13.7,76.7,normal,86.9,normal,22.1,normal
+Jalgaon-Jamod,Buldana,normal,True,441.0,699.0,-36.9,3,2026-08-17,-2.7,13.4,61.0,normal,80.2,normal,0.1,normal
+Nagar,Ahilyanagar,normal,True,300.0,474.0,-36.8,5,2026-08-17,-4.4,-14.4,67.9,normal,79.2,normal,-4.1,normal
+Murtijapur,Akola,normal,True,446.0,705.0,-36.8,5,2026-08-03,-8.9,6.1,37.5,normal,74.5,mild,3.7,normal
+Parola,Jalgaon,normal,True,401.0,634.0,-36.8,3,2026-08-17,-2.1,5.1,64.2,normal,84.5,normal,2.1,normal
+Wadwani,Beed,normal,True,455.0,718.0,-36.7,6,2026-08-03,-11.4,-20.1,42.6,moderate,84.8,normal,3.9,normal
+Dharni,Amravati,normal,True,561.0,885.0,-36.6,3,2026-08-17,2.8,25.5,87.2,normal,81.6,normal,0.2,normal
+Mudkhed,Nanded,normal,True,565.0,892.0,-36.6,4,2026-08-10,-0.8,17.1,52.4,normal,78.5,normal,3.7,normal
+Miraj,Sangali,normal,True,282.0,445.0,-36.6,4,2026-08-24,6.5,21.9,84.2,normal,82.0,normal,21.3,normal
+Washi,Dharashiv,normal,True,356.0,560.0,-36.5,5,2026-08-10,-6.3,-24.5,48.6,moderate,82.4,normal,12.4,normal
+Anjangaon Surji,Amravati,normal,True,466.0,733.0,-36.4,5,2026-08-03,3.6,30.2,78.6,normal,79.7,normal,2.9,normal
+Kaij,Beed,normal,True,412.0,645.0,-36.2,5,2026-08-10,-8.1,-25.4,43.1,moderate,85.0,normal,10.7,normal
+Palam,Parbhani,normal,True,531.0,830.0,-36.0,4,2026-08-10,-4.8,5.9,60.0,normal,77.6,normal,0.1,normal
+Nandurbar,Nandurbar,normal,True,454.0,707.0,-35.8,3,2026-08-17,-5.3,-1.3,63.8,normal,84.3,normal,1.6,normal
+Karanja,Washim,normal,True,488.0,760.0,-35.8,5,2026-08-03,-15.2,-9.9,16.8,normal,73.0,mild,1.4,normal
+Malshiras,Solapur,normal,True,275.0,426.0,-35.5,3,2026-08-24,-3.2,-4.4,69.8,normal,72.5,mild,-5.3,normal
+Shegaon,Buldana,normal,True,392.0,606.0,-35.4,7,2026-08-03,-5.1,9.8,51.4,normal,79.7,normal,2.5,normal
+Hingoli,Hingoli,normal,True,549.0,846.0,-35.1,6,2026-08-03,-1.7,26.1,56.1,normal,84.9,normal,4.4,normal
+Pachora,Jalgaon,normal,True,419.0,646.0,-35.1,4,2026-08-17,-1.1,2.9,67.0,normal,83.8,normal,2.1,normal
+Deoni,Latur,normal,True,504.0,776.0,-35.1,6,2026-08-10,-10.4,-0.9,33.7,normal,70.7,mild,4.2,normal
+Nilanga,Latur,normal,True,458.0,705.0,-35.1,5,2026-08-10,6.1,27.7,67.2,normal,77.4,normal,2.6,normal
+Dharur,Beed,normal,True,459.0,706.0,-35.0,6,2026-08-03,-15.4,-35.3,28.1,severe,80.2,normal,2.0,normal
+Gangakhed,Parbhani,normal,True,524.0,803.0,-34.8,5,2026-08-10,0.0,13.2,68.4,normal,77.1,normal,0.3,normal
+Kavathe Mahankal,Sangali,normal,True,271.0,416.0,-34.8,3,2026-08-24,-1.6,-4.4,77.1,normal,74.4,mild,-10.7,normal
+Akkalkuwa,Nandurbar,normal,True,659.0,1006.0,-34.5,3,2026-08-17,3.6,15.4,82.0,normal,87.7,normal,0.4,normal
+Khanapur,Sangali,normal,True,388.0,591.0,-34.4,5,2026-08-10,4.1,11.3,85.2,normal,88.0,normal,10.3,normal
+Bhum,Dharashiv,normal,True,326.0,496.0,-34.3,5,2026-08-10,0.6,-0.8,67.2,normal,74.1,mild,30.0,normal
+Amalner,Jalgaon,normal,True,420.0,639.0,-34.2,3,2026-08-17,-7.2,-0.7,49.9,normal,84.7,normal,-1.6,normal
+Manora,Washim,normal,True,548.0,834.0,-34.2,5,2026-08-03,-4.7,9.4,44.5,normal,83.3,normal,1.1,normal
+Sinnar,Nashik,normal,True,399.0,606.0,-34.1,7,2026-08-03,9.7,31.4,82.8,normal,86.8,normal,20.0,normal
+Parner,Ahilyanagar,normal,True,338.0,512.0,-34.0,5,2026-08-17,-1.7,-2.5,72.2,normal,80.0,normal,43.5,normal
+Kadegaon,Sangali,normal,True,460.0,696.0,-33.9,3,2026-08-24,8.0,22.7,92.3,normal,89.1,normal,4.8,normal
+Jamkhed,Ahilyanagar,normal,True,289.0,436.0,-33.8,6,2026-08-10,-3.2,-14.9,65.4,normal,72.2,mild,37.3,normal
+Parli,Beed,normal,True,505.0,761.0,-33.6,5,2026-08-10,-3.0,4.1,53.3,normal,80.1,normal,1.5,normal
+Buldana,Buldana,normal,True,479.0,722.0,-33.6,5,2026-08-17,17.5,100.6,79.9,normal,81.4,normal,20.4,normal
+Bhokar,Nanded,normal,True,626.0,942.0,-33.6,4,2026-08-10,-0.2,10.8,65.6,normal,77.4,normal,1.7,normal
+Nandura,Buldana,normal,True,424.0,637.0,-33.5,3,2026-08-17,0.8,19.9,70.7,normal,82.2,normal,0.1,normal
+Soegaon,Chhatrapati Sambhajinagar,normal,True,452.0,679.0,-33.4,5,2026-08-17,4.3,21.0,80.5,normal,80.3,normal,0.0,normal
+Achalpur,Amravati,normal,True,530.0,795.0,-33.3,5,2026-08-03,0.1,16.0,74.4,normal,78.6,normal,0.6,normal
+Loha,Nanded,normal,True,561.0,841.0,-33.2,4,2026-08-10,-8.9,-2.5,45.6,normal,76.4,normal,0.3,normal
+Paranda,Dharashiv,normal,True,304.0,454.0,-33.1,5,2026-08-10,6.9,15.8,76.4,normal,80.4,normal,74.4,normal
+Shirol,Kolhapur,normal,True,337.0,504.0,-33.1,3,2026-08-31,10.1,35.4,84.5,normal,88.8,normal,19.8,normal
+Latur,Latur,normal,True,454.0,679.0,-33.1,5,2026-08-10,10.5,40.5,71.5,normal,83.3,normal,19.5,normal
+Kalmnuri,Hingoli,normal,True,601.0,896.0,-33.0,5,2026-08-10,-5.0,10.3,43.1,normal,84.4,normal,4.9,normal
+Gagan-Bawada,Kolhapur,normal,True,1163.0,1735.0,-33.0,3,2026-08-31,6.9,22.4,88.7,normal,94.3,normal,0.0,normal
+Sindkheda,Dhule,normal,True,435.0,648.0,-32.9,3,2026-08-17,-9.1,-10.9,52.9,normal,84.5,normal,2.8,normal
+Ambejogai,Beed,normal,True,483.0,719.0,-32.8,5,2026-08-10,-1.3,3.5,48.6,normal,84.9,normal,5.4,normal
+Khamgaon,Buldana,normal,True,450.0,670.0,-32.7,7,2026-08-03,-3.0,11.9,55.1,normal,83.5,normal,-0.1,normal
+Shirur-Anantpal,Latur,normal,True,507.0,750.0,-32.5,6,2026-08-10,6.7,51.4,61.7,normal,75.7,normal,1.7,normal
+Akarni,Nandurbar,normal,True,660.0,977.0,-32.5,3,2026-08-17,1.2,11.5,76.5,normal,84.6,normal,1.4,normal
+Karmala,Solapur,normal,True,303.0,448.0,-32.3,6,2026-08-10,-1.9,-5.0,76.3,normal,72.8,mild,1.1,normal
+Darwha,Yavatmal,normal,True,582.0,860.0,-32.3,5,2026-08-03,-6.9,3.4,43.4,normal,77.1,normal,0.9,normal
+Ausa,Latur,normal,True,441.0,650.0,-32.1,5,2026-08-10,0.7,9.8,56.4,normal,76.3,normal,9.8,normal
+Umri,Nanded,normal,True,621.0,910.0,-31.8,4,2026-08-10,-0.6,16.8,59.2,normal,79.4,normal,2.1,normal
+Part of Akkalkuwa,Nandurbar,normal,True,590.0,864.0,-31.8,3,2026-08-17,2.6,16.5,84.5,normal,88.5,normal,0.0,normal
+Barshi,Solapur,normal,True,354.0,518.0,-31.6,3,2026-08-24,-7.5,-16.8,52.3,normal,71.7,mild,16.7,normal
+Indapur,Pune,normal,True,301.0,439.0,-31.5,6,2026-08-10,-3.3,-5.3,70.6,normal,71.8,mild,-6.4,normal
+Bhatkuli,Amravati,normal,True,485.0,707.0,-31.4,5,2026-08-03,-0.2,23.6,71.3,normal,78.2,normal,1.4,normal
+Erandol,Jalgaon,normal,True,475.0,691.0,-31.2,3,2026-08-17,0.5,5.2,66.2,normal,83.3,normal,5.9,normal
+Udgir,Latur,normal,True,552.0,801.0,-31.1,6,2026-08-10,-7.6,4.8,37.9,normal,74.9,mild,1.9,normal
+Hadgaon,Nanded,normal,True,632.0,917.0,-31.1,5,2026-08-10,-2.5,22.3,43.4,normal,81.6,normal,2.1,normal
+Taloda,Nandurbar,normal,True,614.0,891.0,-31.1,3,2026-08-17,0.2,11.1,78.2,normal,87.7,normal,-0.1,normal
+Umarga,Dharashiv,normal,True,443.0,641.0,-30.9,3,2026-08-24,2.8,6.8,70.7,normal,71.1,mild,2.4,normal
+Shahuwadi,Kolhapur,normal,True,1142.0,1645.0,-30.6,3,2026-08-31,1.5,4.3,74.9,normal,92.6,normal,0.2,normal
+Jalkot,Latur,normal,True,558.0,804.0,-30.6,3,2026-08-10,-12.1,-10.9,31.2,normal,76.2,normal,0.8,normal
+Renapur,Latur,normal,True,501.0,722.0,-30.6,5,2026-08-10,6.0,33.1,67.4,normal,81.3,normal,5.7,normal
+Phaltan,Satara,normal,True,388.0,559.0,-30.6,4,2026-08-24,1.0,-1.8,76.6,normal,83.3,normal,29.5,normal
+Shirala,Sangali,normal,True,946.0,1359.0,-30.4,3,2026-08-31,3.0,8.3,79.7,normal,91.7,normal,1.8,normal
+Man,Satara,normal,True,366.0,526.0,-30.4,5,2026-08-10,-2.7,-19.2,73.0,normal,79.7,normal,-16.3,normal
+Edlabad,Jalgaon,normal,True,492.0,706.0,-30.3,3,2026-08-17,-5.5,-3.3,58.7,normal,78.2,normal,0.2,normal
+Motala,Buldana,normal,True,472.0,676.0,-30.2,3,2026-08-17,-4.0,0.1,62.8,normal,79.6,normal,0.4,normal
+Dharangaon,Jalgaon,normal,True,509.0,729.0,-30.2,3,2026-08-17,-0.7,4.6,66.6,normal,84.1,normal,4.6,normal
+Kalwan,Nashik,normal,True,578.0,828.0,-30.2,3,2026-08-17,6.4,19.1,86.4,normal,85.1,normal,1.9,normal
+Pusad,Yavatmal,normal,True,601.0,858.0,-30.0,5,2026-08-03,-3.7,14.9,54.8,normal,82.5,normal,1.9,normal
+Malkapur,Buldana,normal,True,455.0,649.0,-29.9,3,2026-08-17,-5.9,-3.7,60.3,normal,77.9,normal,-0.3,normal
+Nandgaon Khandeshwar,Amravati,normal,True,551.0,783.0,-29.7,5,2026-08-03,-10.4,-2.9,30.0,normal,75.9,normal,1.3,normal
+Ner,Yavatmal,normal,True,598.0,849.0,-29.6,5,2026-08-03,-6.4,7.8,47.4,normal,76.4,normal,0.6,normal
+Karjat,Ahilyanagar,normal,True,268.0,380.0,-29.5,6,2026-08-10,-10.6,-26.6,57.4,moderate,69.1,mild,-12.7,normal
+Mahur,Nanded,normal,True,712.0,1009.0,-29.5,5,2026-08-03,-6.5,3.2,50.0,normal,80.4,normal,0.8,normal
+Digras,Yavatmal,normal,True,630.0,894.0,-29.5,5,2026-08-03,-2.3,10.9,63.5,normal,81.1,normal,0.8,normal
+Himayatnagar,Nanded,normal,True,671.0,949.0,-29.3,3,2026-08-10,-4.6,8.7,45.9,normal,79.8,normal,1.7,normal
+Kandhar,Nanded,normal,True,591.0,836.0,-29.3,4,2026-08-10,-6.0,2.0,56.8,normal,77.4,normal,0.2,normal
+Mukhed,Nanded,normal,True,575.0,812.0,-29.2,3,2026-08-10,-6.8,-0.6,51.2,normal,77.7,normal,0.4,normal
+Jamner,Jalgaon,normal,True,468.0,660.0,-29.1,3,2026-08-17,-3.6,0.6,60.3,normal,83.4,normal,0.2,normal
+Deglur,Nanded,normal,True,584.0,820.0,-28.9,6,2026-08-10,-5.2,-1.1,49.8,normal,79.1,normal,2.0,normal
+Koregaon,Satara,normal,True,556.0,779.0,-28.6,5,2026-08-10,7.0,20.3,91.7,normal,85.2,normal,8.1,normal
+Osmanabad,Dharashiv,normal,True,429.0,601.0,-28.5,5,2026-08-10,-6.6,-13.0,46.6,normal,76.8,normal,5.8,normal
+Umarkhed,Yavatmal,normal,True,701.0,977.0,-28.3,5,2026-08-03,-2.6,19.6,43.8,normal,82.0,normal,2.1,normal
+Dharmabad,Nanded,normal,True,654.0,908.0,-28.0,3,2026-08-10,-8.4,1.3,40.3,normal,80.7,normal,1.9,normal
+Kalamb,Yavatmal,normal,True,555.0,772.0,-28.0,5,2026-08-03,-1.4,4.0,61.9,normal,84.6,normal,8.2,normal
+Lohara,Dharashiv,normal,True,440.0,608.0,-27.6,3,2026-08-24,-1.6,0.5,65.1,normal,71.7,mild,4.7,normal
+Kinwat,Nanded,normal,True,742.0,1025.0,-27.6,5,2026-08-03,-2.0,8.0,65.6,normal,82.9,normal,1.0,normal
+Naigaon,Nanded,normal,True,617.0,851.0,-27.6,3,2026-08-10,-5.5,9.1,47.1,normal,78.1,normal,1.6,normal
+Amravati,Amravati,normal,True,564.0,778.0,-27.5,5,2026-08-03,-5.6,6.6,54.9,normal,76.0,normal,2.8,normal
+Arni,Yavatmal,normal,True,691.0,952.0,-27.4,5,2026-08-03,-4.2,9.8,59.9,normal,81.9,normal,0.4,normal
+Chakur,Latur,normal,True,562.0,772.0,-27.3,4,2026-08-10,0.2,27.9,45.6,normal,73.6,mild,5.9,normal
+Tuljapur,Dharashiv,normal,True,411.0,564.0,-27.2,3,2026-08-24,-1.7,-0.0,70.1,normal,71.6,mild,12.4,normal
+Khatav,Satara,normal,True,466.0,640.0,-27.2,5,2026-08-10,6.0,13.3,89.5,normal,87.6,normal,12.9,normal
+Mahagaon,Yavatmal,normal,True,677.0,929.0,-27.1,5,2026-08-03,-6.2,4.8,47.5,normal,79.9,normal,2.1,normal
+Ahmadpur,Latur,normal,True,587.0,804.0,-27.0,4,2026-08-10,-10.3,-4.3,34.8,normal,75.8,normal,1.3,normal
+Chandur Bazar,Amravati,normal,True,595.0,807.0,-26.2,5,2026-08-03,3.2,23.6,77.5,normal,79.1,normal,2.9,normal
+Biloli,Nanded,normal,True,635.0,861.0,-26.2,3,2026-08-10,-5.0,11.0,43.2,normal,81.3,normal,2.3,normal
+Yavatmal,Yavatmal,normal,True,718.0,974.0,-26.2,5,2026-08-03,-4.4,4.8,58.7,normal,80.7,normal,0.6,normal
+Chopda,Jalgaon,normal,True,559.0,756.0,-26.0,3,2026-08-17,-4.7,-2.4,56.9,normal,81.5,normal,0.2,normal
+Morshi,Amravati,normal,True,644.0,865.0,-25.6,5,2026-08-03,-3.0,2.8,66.2,normal,78.2,normal,1.2,normal
+Bodwad,Jalgaon,normal,True,489.0,655.0,-25.3,3,2026-08-17,-7.8,-15.8,56.4,normal,80.0,normal,-0.1,normal
+Chandur Railway,Amravati,normal,True,633.0,846.0,-25.2,5,2026-08-03,-6.0,1.5,48.9,normal,78.6,normal,1.3,normal
+Jalgaon,Jalgaon,normal,True,555.0,742.0,-25.2,3,2026-08-17,-5.1,-4.0,57.9,normal,81.1,normal,-1.7,normal
+Shahada,Nandurbar,normal,True,554.0,741.0,-25.2,3,2026-08-17,-2.9,8.8,71.8,normal,85.1,normal,0.4,normal
+Solapur South,Solapur,normal,True,395.0,526.0,-24.9,4,2026-08-24,-6.1,-9.1,61.3,normal,64.2,mild,-13.3,normal
+Yawal,Jalgaon,normal,True,620.0,825.0,-24.8,3,2026-08-17,-4.2,-0.4,62.1,normal,83.2,normal,0.1,normal
+Shirpur,Dhule,normal,True,524.0,696.0,-24.7,3,2026-08-17,-6.7,1.0,56.6,normal,81.5,normal,1.4,normal
+Baramati,Pune,normal,True,330.0,437.0,-24.4,4,2026-08-24,0.1,0.2,73.7,normal,82.2,normal,40.0,normal
+Raver,Jalgaon,normal,True,604.0,798.0,-24.3,3,2026-08-17,-1.6,4.3,56.8,normal,81.7,normal,0.8,normal
+Ashti,Wardha,normal,True,710.0,937.0,-24.2,5,2026-08-03,0.0,9.0,75.2,normal,81.6,normal,0.2,normal
+Daund,Pune,normal,True,387.0,508.0,-23.7,4,2026-08-24,-2.5,-1.8,74.0,normal,78.1,normal,-1.1,normal
+Shrigonda,Ahilyanagar,normal,True,355.0,464.0,-23.6,5,2026-08-17,-4.2,-8.1,70.3,normal,75.6,normal,-4.8,normal
+Bhusawal,Jalgaon,normal,True,546.0,714.0,-23.6,3,2026-08-17,-4.6,-3.4,59.8,normal,83.3,normal,3.2,normal
+Babulgaon,Yavatmal,normal,True,684.0,893.0,-23.4,5,2026-08-03,-7.0,-0.6,48.0,normal,76.6,normal,0.5,normal
+Ghatanji,Yavatmal,normal,True,772.0,1002.0,-23.0,5,2026-08-03,-0.2,16.7,75.0,normal,81.8,normal,0.4,normal
+Akkalkot,Solapur,normal,True,417.0,538.0,-22.5,4,2026-08-24,-7.0,-13.3,55.8,normal,62.0,mild,-20.2,moderate
+Shirur,Pune,normal,True,444.0,573.0,-22.4,5,2026-08-17,2.8,10.8,83.5,normal,82.2,normal,16.8,normal
+Malwan,Sindhudurg,normal,True,2125.0,2736.0,-22.3,3,2026-08-31,5.5,12.3,75.5,normal,95.1,normal,1.6,normal
+Deoli,Wardha,normal,True,704.0,891.0,-21.0,5,2026-08-03,-7.8,-7.2,46.1,normal,79.0,normal,0.6,normal
+Vengurla,Sindhudurg,normal,True,2237.0,2828.0,-20.9,3,2026-08-31,9.3,8.3,83.0,normal,95.7,normal,0.4,normal
+Kelapur,Yavatmal,normal,True,828.0,1024.0,-19.2,5,2026-08-03,0.7,17.3,76.5,normal,83.7,normal,0.6,normal
+Lanja,Ratnagiri,normal,True,1981.0,2432.0,-18.5,3,2026-08-31,3.7,17.3,85.1,normal,96.7,normal,1.4,normal
+Satara,Satara,normal,True,862.0,1056.0,-18.3,3,2026-08-24,4.3,12.3,82.8,normal,90.9,normal,1.9,normal
+Akole,Ahilyanagar,normal,True,760.0,925.0,-17.8,7,2026-08-03,7.0,24.5,90.8,normal,85.9,normal,1.2,normal
+Junnar,Pune,normal,True,737.0,895.0,-17.7,7,2026-08-03,5.0,24.9,82.8,normal,85.4,normal,13.6,normal
+Dindori,Nashik,normal,True,677.0,819.0,-17.4,7,2026-08-03,3.0,13.9,76.9,normal,86.4,normal,3.2,normal
+Khandala,Satara,normal,True,662.0,790.0,-16.2,4,2026-08-24,1.0,5.1,83.2,normal,85.6,normal,7.0,normal
+Zari Zamni,Yavatmal,normal,True,883.0,1043.0,-15.4,5,2026-08-03,0.8,20.6,72.5,normal,85.6,normal,1.8,normal
+Ralegaon,Yavatmal,normal,True,827.0,973.0,-15.0,5,2026-08-03,-0.5,11.1,75.2,normal,83.5,normal,0.2,normal
+Hingangaht,Wardha,normal,True,813.0,943.0,-13.7,5,2026-08-03,-4.0,4.5,63.4,normal,80.1,normal,0.5,normal
+Nasik,Nashik,normal,True,616.0,712.0,-13.4,7,2026-08-03,1.0,10.8,72.4,normal,84.3,normal,2.2,normal
+Zari-Jamani,Yavatmal,normal,True,905.0,1043.0,-13.3,5,2026-08-03,-2.6,12.8,50.7,normal,83.5,normal,2.6,normal
+Purandhar,Pune,normal,True,514.0,588.0,-12.6,4,2026-08-24,3.1,12.4,87.2,normal,82.4,normal,20.2,normal
+Sangmeshwar,Ratnagiri,normal,True,2039.0,2306.0,-11.6,3,2026-08-31,2.5,12.6,82.3,normal,96.9,normal,0.5,normal
+Wai,Satara,normal,True,1041.0,1169.0,-11.0,3,2026-08-24,3.9,13.5,82.1,normal,91.3,normal,1.1,normal
+Maregaon,Yavatmal,normal,True,915.0,1028.0,-11.0,5,2026-08-03,0.4,14.1,73.9,normal,84.2,normal,0.2,normal
+Ambegaon,Pune,normal,True,913.0,1018.0,-10.4,4,2026-08-24,2.6,17.9,76.5,normal,86.9,normal,8.6,normal
+Korpana,Chandrapur,normal,True,1012.0,1127.0,-10.2,4,2026-08-03,-0.4,18.8,66.3,normal,84.9,normal,3.3,normal
+Ballarpur,Chandrapur,normal,True,1075.0,1179.0,-8.8,5,2026-08-03,3.9,17.6,75.6,normal,86.7,normal,9.7,normal
+Chandrapur,Chandrapur,normal,True,1096.0,1196.0,-8.4,5,2026-08-03,0.9,19.2,72.4,normal,87.7,normal,8.4,normal
+Wani,Yavatmal,normal,True,987.0,1077.0,-8.4,5,2026-08-03,1.0,21.8,66.6,normal,85.0,normal,4.7,normal
+Khed,Pune,normal,True,915.0,996.0,-8.1,4,2026-08-24,5.9,25.4,77.0,normal,87.6,normal,5.9,normal
+Igatpuri,Nashik,normal,True,998.0,1077.0,-7.4,7,2026-08-03,4.0,14.6,81.5,normal,86.3,normal,1.4,normal
+Ratnagiri,Ratnagiri,normal,True,2471.0,2662.0,-7.2,3,2026-08-31,5.8,3.6,80.7,normal,94.9,normal,1.2,normal
+Bhadravati,Chandrapur,normal,True,1075.0,1143.0,-5.9,4,2026-08-10,2.1,25.0,76.1,normal,86.8,normal,2.8,normal
+Mokhada,Palghar,normal,True,1415.0,1496.0,-5.4,6,2026-08-03,3.9,19.1,80.6,normal,90.3,normal,0.1,normal
+Peint,Nashik,normal,True,1071.0,1131.0,-5.3,7,2026-08-03,2.6,11.8,81.4,normal,87.3,normal,-0.0,normal
+Trimbakeshwar,Nashik,normal,True,1175.0,1242.0,-5.3,6,2026-08-03,4.1,13.2,79.6,normal,87.6,normal,2.1,normal
+Jawhar,Palghar,normal,True,1662.0,1740.0,-4.5,6,2026-08-03,8.5,26.9,90.6,normal,91.4,normal,0.1,normal
+Jaoli,Satara,normal,True,1490.0,1558.0,-4.3,4,2026-08-24,-0.2,3.6,72.8,normal,91.3,normal,1.3,normal
+Haveli,Pune,normal,True,687.0,715.0,-3.9,4,2026-08-24,-2.6,-2.2,58.9,normal,86.0,normal,-11.9,normal
+Vikramgad,Palghar,normal,True,1813.0,1882.0,-3.7,5,2026-08-03,14.3,42.8,98.1,normal,94.0,normal,0.3,normal
+Pen,Raigad,normal,True,2242.0,2320.0,-3.3,4,2026-08-24,13.8,26.0,91.1,normal,93.8,normal,9.0,normal
+Surgana,Nashik,normal,True,1149.0,1186.0,-3.1,5,2026-08-03,6.0,15.9,92.1,normal,88.5,normal,0.8,normal
+Dahanu,Palghar,normal,True,1899.0,1957.0,-3.0,5,2026-08-03,12.5,47.0,98.5,normal,96.4,normal,0.0,normal
+Alibag,Raigad,normal,True,2333.0,2405.0,-3.0,3,2026-08-24,8.5,12.2,84.5,normal,94.9,normal,5.8,normal
+Shahapur,Thane,normal,True,1660.0,1698.0,-2.2,3,2026-08-24,8.1,28.3,92.6,normal,91.2,normal,0.3,normal
+Murbad,Thane,normal,True,1593.0,1620.0,-1.7,3,2026-08-24,7.9,23.2,93.2,normal,91.5,normal,0.1,normal
+Mawal,Pune,normal,True,1437.0,1456.0,-1.3,4,2026-08-24,1.6,11.7,76.1,normal,91.5,normal,-1.6,normal
+Roha,Raigad,normal,True,2095.0,2119.0,-1.1,3,2026-08-24,5.7,15.6,86.7,normal,94.2,normal,1.2,normal
+Talasari,Palghar,normal,True,1944.0,1957.0,-0.6,5,2026-08-03,13.1,39.0,94.1,normal,92.8,normal,0.3,normal
+Vada,Palghar,normal,True,1883.0,1895.0,-0.6,7,2026-08-03,6.6,24.1,84.0,normal,93.3,normal,0.2,normal
+Khalapur,Raigad,normal,True,2189.0,2193.0,-0.2,4,2026-08-24,4.1,18.9,78.6,normal,94.8,normal,0.6,normal
+Uran,Raigad,normal,True,2481.0,2485.0,-0.1,4,2026-08-24,6.4,11.9,71.8,normal,91.3,normal,11.4,normal
+Tala,Raigad,normal,True,2201.0,2202.0,-0.0,3,2026-08-31,7.6,14.5,86.7,normal,97.4,normal,1.2,normal
+Mahableshwar,Satara,normal,True,1674.0,1673.0,0.1,3,2026-08-31,0.7,4.9,69.3,normal,91.5,normal,1.9,normal
+Dahanau,Palghar,normal,True,1966.0,1934.0,1.6,5,2026-08-03,13.7,41.5,93.9,normal,93.7,normal,2.5,normal
+Karjat,Raigad,normal,True,1906.0,1864.0,2.3,4,2026-08-24,5.7,20.3,86.3,normal,92.8,normal,0.1,normal
+Chiplun,Ratnagiri,normal,True,2322.0,2271.0,2.3,3,2026-08-31,0.9,6.9,71.1,normal,96.0,normal,0.6,normal
+Mulshi,Pune,normal,True,1221.0,1193.0,2.4,3,2026-08-31,0.7,4.1,70.0,normal,90.8,normal,-3.0,normal
+Shrivardhan,Raigad,normal,True,2438.0,2375.0,2.7,3,2026-08-31,9.7,8.1,86.7,normal,97.5,normal,1.4,normal
+Bhiwandi,Thane,normal,True,2234.0,2176.0,2.7,7,2026-08-03,6.0,19.2,80.0,normal,92.5,normal,-0.4,normal
+Panvel,Raigad,normal,True,2449.0,2362.0,3.7,4,2026-08-24,4.7,15.7,69.8,normal,93.3,normal,4.2,normal
+Mhasla,Raigad,normal,True,2378.0,2292.0,3.8,3,2026-08-31,6.7,5.9,82.4,normal,94.8,normal,4.1,normal
+Palghar,Palghar,normal,True,2117.0,2034.0,4.0,3,2026-08-17,10.1,31.2,86.5,normal,93.9,normal,3.2,normal
+Kalyan,Thane,normal,True,2245.0,2154.0,4.2,6,2026-08-10,5.7,20.8,77.1,normal,92.2,normal,1.5,normal
+Ambarnath,Thane,normal,True,2238.0,2142.0,4.5,4,2026-08-24,3.9,15.8,75.7,normal,92.6,normal,-0.6,normal
+Vasai,Palghar,normal,True,2354.0,2250.0,4.6,4,2026-08-10,7.4,20.3,74.6,normal,92.0,normal,12.8,normal
+Dapoli,Ratnagiri,normal,True,2677.0,2556.0,4.7,3,2026-08-31,4.9,4.5,81.9,normal,96.5,normal,0.6,normal
+Mangaon,Raigad,normal,True,1872.0,1784.0,4.9,3,2026-08-31,3.9,12.2,80.6,normal,96.0,normal,0.3,normal
+Khed,Ratnagiri,normal,True,2359.0,2245.0,5.1,3,2026-08-31,2.6,10.0,80.5,normal,95.3,normal,0.6,normal
+Guhaghar,Ratnagiri,normal,True,2697.0,2558.0,5.4,3,2026-08-31,3.6,9.9,83.7,normal,96.9,normal,0.6,normal
+Mumbai,Mumbai,normal,True,2693.0,2548.0,5.7,4,2026-08-10,3.3,-1.4,59.5,normal,89.2,normal,91.0,normal
+Bhor,Pune,normal,True,1126.0,1063.0,5.9,4,2026-08-24,2.6,10.1,80.7,normal,91.3,normal,-0.2,normal
+Ulhasnagar,Thane,normal,True,2345.0,2215.0,5.9,6,2026-08-10,8.6,-5.4,84.0,normal,87.5,normal,-100.0,severe
+Mandangad,Ratnagiri,normal,True,2550.0,2406.0,6.0,3,2026-08-31,1.7,3.9,73.0,normal,97.3,normal,1.1,normal
+Poladpur,Raigad,normal,True,2055.0,1927.0,6.7,3,2026-08-31,3.7,9.5,88.3,normal,94.7,normal,0.0,normal
+Mahad,Raigad,normal,True,1885.0,1766.0,6.8,3,2026-08-31,2.3,7.4,81.3,normal,94.7,normal,0.5,normal
+Borivali,Mumbai,normal,True,2712.0,2527.0,7.3,4,2026-08-10,10.3,17.3,66.6,normal,95.0,normal,19.5,normal
+Thane,Thane,normal,True,2652.0,2469.0,7.4,6,2026-08-10,2.9,16.1,67.7,normal,91.6,normal,6.2,normal
+Kurla,Mumbai,normal,True,2809.0,2582.0,8.8,4,2026-08-10,4.9,23.9,74.8,normal,91.5,normal,22.7,normal
+Chandgad,Kolhapur,no trigger,False,911.0,1485.0,-38.6,2,2026-08-03,3.6,3.7,71.2,normal,92.8,normal,3.2,normal
+Gadhinglaj,Kolhapur,no trigger,False,599.0,943.0,-36.4,2,2026-06-29,0.8,2.7,65.0,normal,90.2,normal,2.5,normal
+Kagal,Kolhapur,no trigger,False,608.0,956.0,-36.4,2,2026-07-06,3.9,14.2,79.0,normal,91.5,normal,3.3,normal
+Ajra,Kolhapur,no trigger,False,913.0,1388.0,-34.3,2,2026-06-29,2.4,4.5,73.2,normal,92.0,normal,0.9,normal
+Bhudargad,Kolhapur,no trigger,False,1090.0,1629.0,-33.1,2,2026-08-03,2.9,6.7,78.7,normal,93.3,normal,0.5,normal
+Radhanagari,Kolhapur,no trigger,False,1115.0,1661.0,-32.9,2,2026-07-06,3.9,9.8,81.8,normal,93.9,normal,0.4,normal
+Karad,Satara,no trigger,False,641.0,932.0,-31.2,2,2026-08-03,3.4,10.7,82.2,normal,89.9,normal,2.1,normal
+Dodamarg,Sindhudurg,no trigger,False,1613.0,2320.0,-30.5,2,2026-08-31,7.0,18.0,79.4,normal,91.7,normal,5.3,normal
+Savantwadi,Sindhudurg,no trigger,False,1748.0,2428.0,-28.0,2,2026-08-03,4.6,9.0,77.3,normal,93.4,normal,2.6,normal
+Kudal,Sindhudurg,no trigger,False,1877.0,2549.0,-26.4,2,2026-08-03,-0.1,9.9,71.7,normal,94.4,normal,0.0,normal
+Vaibhavwadi,Sindhudurg,no trigger,False,1710.0,2235.0,-23.5,2,2026-08-03,1.5,16.7,78.2,normal,94.8,normal,0.2,normal
+Teosa,Amravati,no trigger,False,660.0,862.0,-23.4,2,2026-08-03,-8.6,-5.2,48.5,normal,77.7,normal,1.2,normal
+Warud,Amravati,no trigger,False,768.0,1001.0,-23.3,2,2026-08-03,-0.5,10.7,77.2,normal,83.6,normal,0.3,normal
+Kankavali,Sindhudurg,no trigger,False,1862.0,2411.0,-22.8,2,2026-08-03,1.7,13.6,78.4,normal,94.9,normal,0.0,normal
+Dhamangaon Railway,Amravati,no trigger,False,696.0,900.0,-22.6,2,2026-08-03,-6.2,-1.6,50.1,normal,77.9,normal,0.9,normal
+Arvi,Wardha,no trigger,False,739.0,941.0,-21.5,2,2026-08-03,-2.3,6.3,66.4,normal,81.2,normal,0.4,normal
+Rajapur,Ratnagiri,no trigger,False,1952.0,2461.0,-20.7,2,2026-07-06,2.7,8.5,76.1,normal,95.2,normal,1.1,normal
+Narkhed,Nagpur,no trigger,False,807.0,1007.0,-19.8,2,2026-08-03,-2.8,2.1,72.9,normal,84.1,normal,0.1,normal
+Devgad,Sindhudurg,no trigger,False,2117.0,2640.0,-19.8,2,2026-08-03,4.4,1.1,77.6,normal,92.8,normal,2.0,normal
+Wardha,Wardha,no trigger,False,750.0,927.0,-19.1,2,2026-08-03,-4.5,-0.6,55.4,normal,79.6,normal,0.8,normal
+Patan,Satara,no trigger,False,1158.0,1429.0,-19.0,2,2026-08-03,4.9,16.2,82.7,normal,92.0,normal,0.6,normal
+Karanja,Wardha,no trigger,False,798.0,978.0,-18.4,2,2026-08-03,-0.2,12.6,80.8,normal,84.7,normal,0.1,normal
+Seloo,Wardha,no trigger,False,831.0,991.0,-16.2,2,2026-08-03,-1.9,6.1,57.4,normal,81.1,normal,2.5,normal
+Katol,Nagpur,no trigger,False,877.0,1026.0,-14.6,2,2026-08-24,-3.7,1.7,70.8,normal,85.2,normal,0.4,normal
+Jiwati,Chandrapur,no trigger,False,986.0,1141.0,-13.6,2,2026-07-06,3.7,20.1,75.9,normal,88.0,normal,0.7,normal
+Hingna,Nagpur,no trigger,False,873.0,1007.0,-13.3,2,2026-08-03,-2.8,5.5,66.0,normal,83.9,normal,1.2,normal
+Samudrapur,Wardha,no trigger,False,864.0,985.0,-12.3,2,2026-08-03,-0.1,15.1,75.2,normal,82.3,normal,2.3,normal
+Umrer,Nagpur,no trigger,False,918.0,1029.0,-10.8,2,2026-08-03,1.8,15.8,78.5,normal,85.8,normal,3.3,normal
+Parseoni,Nagpur,no trigger,False,1057.0,1183.0,-10.7,2,2026-08-24,1.3,11.5,79.6,normal,85.2,normal,0.5,normal
+Nagpur (Rural),Nagpur,no trigger,False,889.0,993.0,-10.4,2,2026-08-03,1.0,14.1,71.8,normal,85.3,normal,7.6,normal
+Rajura,Chandrapur,no trigger,False,1039.0,1156.0,-10.1,2,2026-08-03,1.2,18.1,73.6,normal,84.1,normal,3.4,normal
+Mul,Chandrapur,no trigger,False,1080.0,1198.0,-9.8,2,2026-08-24,1.7,10.6,77.3,normal,88.7,normal,0.3,normal
+Ramtek,Nagpur,no trigger,False,1107.0,1228.0,-9.8,1,2026-06-15,1.9,11.9,80.6,normal,86.6,normal,1.6,normal
+Saoner,Nagpur,no trigger,False,995.0,1100.0,-9.6,1,2026-06-15,-1.6,4.3,77.0,normal,85.3,normal,-0.3,normal
+Kalmeshwar,Nagpur,no trigger,False,940.0,1028.0,-8.6,1,2026-06-15,-3.1,1.8,72.6,normal,85.7,normal,0.5,normal
+Chimur,Chandrapur,no trigger,False,988.0,1080.0,-8.5,2,2026-08-24,2.5,15.4,78.5,normal,88.6,normal,0.7,normal
+Sindewahi,Chandrapur,no trigger,False,1074.0,1168.0,-8.0,2,2026-08-24,0.6,6.8,69.4,normal,88.0,normal,0.1,normal
+Nagpur,Nagpur,no trigger,False,910.0,988.0,-7.9,2,2026-08-24,-1.7,15.6,51.3,normal,87.3,normal,22.7,normal
+Pomburna,Chandrapur,no trigger,False,1091.0,1182.0,-7.7,2,2026-08-24,3.1,12.3,83.9,normal,87.1,normal,1.1,normal
+Warora,Chandrapur,no trigger,False,956.0,1036.0,-7.7,2,2026-08-03,1.3,20.6,74.1,normal,82.5,normal,1.6,normal
+Saoli,Chandrapur,no trigger,False,1102.0,1191.0,-7.5,2,2026-08-24,2.9,15.0,81.2,normal,90.0,normal,0.6,normal
+Bhamaragad,Gadchiroli,no trigger,False,1220.0,1315.0,-7.2,1,2026-06-15,0.1,19.0,67.3,normal,88.2,normal,1.2,normal
+Bhiwapur,Nagpur,no trigger,False,965.0,1037.0,-6.9,2,2026-08-03,2.1,22.1,78.2,normal,84.8,normal,0.9,normal
+Dhanora,Gadchiroli,no trigger,False,1152.0,1236.0,-6.8,1,2026-06-15,4.1,30.2,81.4,normal,89.7,normal,0.8,normal
+Kamthi,Nagpur,no trigger,False,954.0,1020.0,-6.5,2,2026-08-24,2.6,14.1,73.5,normal,84.6,normal,9.3,normal
+Kuhi,Nagpur,no trigger,False,992.0,1053.0,-5.8,2,2026-08-24,3.3,20.9,81.6,normal,87.4,normal,4.6,normal
+Tumsar,Bhandara,no trigger,False,1139.0,1202.0,-5.3,1,2026-06-15,-1.0,12.2,62.4,normal,85.9,normal,0.6,normal
+Nagbhir,Chandrapur,no trigger,False,1055.0,1115.0,-5.3,2,2026-08-24,-0.0,13.0,62.7,normal,87.9,normal,0.3,normal
+Gondpipri,Chandrapur,no trigger,False,1100.0,1158.0,-5.0,2,2026-08-24,4.8,13.7,87.0,normal,85.3,normal,2.8,normal
+Armori,Gadchiroli,no trigger,False,1099.0,1156.0,-4.9,2,2026-08-24,1.7,21.7,68.2,normal,88.8,normal,1.2,normal
+Gadchiroli,Gadchiroli,no trigger,False,1165.0,1217.0,-4.3,1,2026-06-15,2.4,19.2,77.7,normal,89.3,normal,1.2,normal
+Sironcha,Gadchiroli,no trigger,False,1124.0,1170.0,-4.0,1,2026-06-15,3.1,9.6,76.1,normal,81.7,normal,6.1,normal
+Lakhni,Bhandara,no trigger,False,1087.0,1126.0,-3.5,2,2026-08-24,-0.3,18.8,64.4,normal,87.1,normal,0.1,normal
+Mulchera,Gadchiroli,no trigger,False,1208.0,1246.0,-3.1,1,2026-06-15,1.8,18.7,76.7,normal,88.4,normal,0.4,normal
+Chamorshi,Gadchiroli,no trigger,False,1189.0,1226.0,-3.0,1,2026-06-15,0.8,11.9,77.4,normal,89.0,normal,0.3,normal
+Kurkheda,Gadchiroli,no trigger,False,1139.0,1172.0,-2.8,1,2026-06-15,3.3,25.8,74.3,normal,87.7,normal,0.5,normal
+Etapalli,Gadchiroli,no trigger,False,1254.0,1287.0,-2.6,1,2026-06-15,0.4,24.0,73.3,normal,90.2,normal,-0.1,normal
+Bhandara,Bhandara,no trigger,False,1103.0,1128.0,-2.3,2,2026-08-24,-0.4,11.1,69.1,normal,88.6,normal,0.5,normal
+Pauni,Bhandara,no trigger,False,1055.0,1080.0,-2.3,2,2026-08-24,3.2,24.5,69.9,normal,86.8,normal,0.7,normal
+Mauda,Nagpur,no trigger,False,1060.0,1083.0,-2.1,1,2026-06-15,1.9,12.2,74.9,normal,84.7,normal,0.7,normal
+Aheri,Gadchiroli,no trigger,False,1237.0,1263.0,-2.0,1,2026-06-15,2.8,18.7,77.4,normal,86.0,normal,1.8,normal
+Mohadi,Bhandara,no trigger,False,1110.0,1123.0,-1.2,1,2026-06-15,-0.0,12.1,69.6,normal,86.6,normal,0.4,normal
+Bramhapuri,Chandrapur,no trigger,False,1119.0,1125.0,-0.5,2,2026-08-24,2.9,25.3,69.9,normal,88.1,normal,1.7,normal
+Murud,Raigad,no trigger,False,2395.0,2398.0,-0.1,2,2026-08-31,9.9,10.0,87.0,normal,96.0,normal,-0.8,normal
+Sakoli,Bhandara,no trigger,False,1158.0,1157.0,0.0,2,2026-08-24,0.1,15.8,66.7,normal,87.8,normal,0.1,normal
+Sudhagad,Raigad,no trigger,False,1881.0,1878.0,0.2,2,2026-08-03,3.5,14.7,81.9,normal,93.8,normal,0.1,normal
+Korchi,Gadchiroli,no trigger,False,1170.0,1159.0,1.0,1,2026-06-15,8.6,35.1,90.7,normal,90.8,normal,2.8,normal
+Desaiganj,Gadchiroli,no trigger,False,1137.0,1124.0,1.2,2,2026-08-24,0.8,22.0,60.3,normal,85.4,normal,0.9,normal
+Lakhandur,Bhandara,no trigger,False,1116.0,1096.0,1.8,2,2026-08-24,4.7,25.4,74.9,normal,86.8,normal,0.8,normal
+Gondia,Gondia,no trigger,False,1275.0,1252.0,1.8,1,2026-06-15,2.9,18.5,83.3,normal,86.7,normal,0.3,normal
+Arjuni Morgaon,Gondia,no trigger,False,1184.0,1160.0,2.1,2,2026-08-24,1.9,18.6,67.3,normal,86.5,normal,0.1,normal
+Tirora,Gondia,no trigger,False,1228.0,1198.0,2.5,1,2026-06-15,1.0,14.7,72.1,normal,86.8,normal,0.1,normal
+Sadak-Arjuni,Gondia,no trigger,False,1236.0,1203.0,2.8,1,2026-06-15,3.9,22.4,78.1,normal,88.6,normal,0.1,normal
+Amgaon,Gondia,no trigger,False,1262.0,1219.0,3.5,1,2026-06-15,3.3,20.3,86.8,normal,86.2,normal,0.0,normal
+Deori,Gondia,no trigger,False,1202.0,1155.0,4.1,1,2026-06-15,6.5,26.3,87.4,normal,89.8,normal,0.4,normal
+Goregaon,Gondia,no trigger,False,1289.0,1227.0,5.0,1,2026-06-15,2.8,18.0,83.3,normal,88.8,normal,0.1,normal
+Salekasa,Gondia,no trigger,False,1276.0,1211.0,5.4,1,2026-06-15,5.5,24.9,91.1,normal,87.1,normal,0.0,normal
+Velhe,Pune,no trigger,False,1333.0,1189.0,12.1,2,2026-08-03,2.6,9.6,83.3,normal,92.3,normal,0.1,normal
+Andheri,Mumbai,insufficient data,True,2792.0,2597.0,7.5,4,2026-08-10,7.5,43.0,70.0,normal,,,-49.2,severe

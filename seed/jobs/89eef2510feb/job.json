@@ -1,0 +1,290 @@
+{
+  "id": "89eef2510feb",
+  "name": "Drought 2026: Dharur villages (Beed)",
+  "mode": "drought",
+  "created_at": "2026-10-28T15:21:11+00:00",
+  "finished_at": "2026-10-28T15:21:52+00:00",
+  "status": "completed",
+  "options": {
+    "scope": "beed--dharur",
+    "year": 2026
+  },
+  "aoi": null,
+  "stages": [
+    {
+      "id": "data",
+      "name": "Latest satellite data",
+      "description": "Newest rainfall, vegetation and evapotranspiration dates",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:11+00:00",
+      "finished_at": "2026-10-28T15:21:23+00:00",
+      "summary": "Rainfall to 2026-09-30, vegetation to 2026-10-08, evapotranspiration to 2026-10-08",
+      "metrics": {
+        "year": 2026,
+        "rain_start": "2026-06-01",
+        "rain_end": "2026-09-30",
+        "veg_end": "2026-10-08",
+        "et_end": "2026-10-08",
+        "rs_start": "2026-09-22"
+      },
+      "preview": null
+    },
+    {
+      "id": "trigger1",
+      "name": "Trigger-1: rainfall",
+      "description": "Seasonal deficit and dry spells (CHIRPS)",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:23+00:00",
+      "finished_at": "2026-10-28T15:21:26+00:00",
+      "summary": "Trigger-1 met in 37 of 37 villages",
+      "metrics": {
+        "trigger_1": 37,
+        "units": 37
+      },
+      "preview": null
+    },
+    {
+      "id": "trigger2",
+      "name": "Trigger-2: crop impact",
+      "description": "Crop condition, moisture and cropped area (MODIS)",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:26+00:00",
+      "finished_at": "2026-10-28T15:21:29+00:00",
+      "summary": "0 severe, 0 moderate, 37 normal among Trigger-1 villages",
+      "metrics": {
+        "severe": 0,
+        "moderate": 0,
+        "normal": 37,
+        "no trigger": 0,
+        "insufficient data": 0
+      },
+      "preview": null
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "description": "Rainfall and crop-condition layers",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:29+00:00",
+      "finished_at": "2026-10-28T15:21:52+00:00",
+      "summary": "Rainfall and crop-condition layers",
+      "metrics": {},
+      "preview": null
+    },
+    {
+      "id": "outputs",
+      "name": "Report and exports",
+      "description": "PDF, CSV, GeoJSON and KML",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:52+00:00",
+      "finished_at": "2026-10-28T15:21:52+00:00",
+      "summary": "PDF, CSV, GeoJSON and KML ready",
+      "metrics": {},
+      "preview": null
+    }
+  ],
+  "outputs": {
+    "layers": {
+      "units": {
+        "file": "units.geojson",
+        "label": "Village boundaries"
+      }
+    },
+    "rasters": {
+      "rain_dev": {
+        "file": "rain_dev.png",
+        "corners": [
+          [
+            76.02548,
+            18.96697
+          ],
+          [
+            76.36018,
+            18.96697
+          ],
+          [
+            76.36018,
+            18.73882
+          ],
+          [
+            76.02548,
+            18.73882
+          ]
+        ],
+        "label": "Rainfall deviation from normal (CHIRPS)",
+        "legend": {
+          "type": "continuous",
+          "min": -60,
+          "max": 60,
+          "unit": "%",
+          "palette": [
+            "8c510a",
+            "d8b365",
+            "f6e8c3",
+            "f5f5f5",
+            "c7eae5",
+            "5ab4ac",
+            "01665e"
+          ]
+        }
+      },
+      "ndvi_dev": {
+        "file": "ndvi_dev.png",
+        "corners": [
+          [
+            76.02548,
+            18.96697
+          ],
+          [
+            76.36018,
+            18.96697
+          ],
+          [
+            76.36018,
+            18.73882
+          ],
+          [
+            76.02548,
+            18.73882
+          ]
+        ],
+        "label": "Crop NDVI deviation, latest 3 weeks (MODIS)",
+        "legend": {
+          "type": "continuous",
+          "min": -40,
+          "max": 40,
+          "unit": "%",
+          "palette": [
+            "8c510a",
+            "d8b365",
+            "f6e8c3",
+            "f5f5f5",
+            "c7eae5",
+            "5ab4ac",
+            "01665e"
+          ]
+        }
+      }
+    },
+    "exports": {
+      "pdf": {
+        "file": "drought_report.pdf",
+        "label": "PDF report"
+      },
+      "csv": {
+        "file": "drought.csv",
+        "label": "Table (CSV)"
+      },
+      "geojson": {
+        "file": "drought.geojson",
+        "label": "Map data (GeoJSON)"
+      },
+      "kml": {
+        "file": "drought.kml",
+        "label": "Google Earth (KML)"
+      }
+    }
+  },
+  "summary": {
+    "kind": "drought",
+    "unit": "village",
+    "units": 37,
+    "trigger_1": 37,
+    "counts": {
+      "severe": 0,
+      "moderate": 0,
+      "normal": 37,
+      "no trigger": 0,
+      "insufficient data": 0
+    },
+    "mean_rain_dev_pct": -35.1,
+    "season": {
+      "year": 2026,
+      "rain_start": "2026-06-01",
+      "rain_end": "2026-09-30",
+      "veg_end": "2026-10-08",
+      "et_end": "2026-10-08",
+      "rs_start": "2026-09-22"
+    },
+    "method": {
+      "trigger_1": "Rainfall 20% or more below the 1991-2020 normal with a dry spell of 3+ weeks (each week under 50% of normal), or 60% or more below normal (Manual Table 3.10).",
+      "remote_sensing": "NDVI and NDWI over the latest 24 days vs the unit's normal-rainfall years (2017-2025); -20 to -30% moderate, below -30% severe; worst of the two (Manual 3.2.2).",
+      "soil_moisture": "Moisture Adequacy Index = AET / PET from MODIS, expressed as % of the unit's normal-year value, then Manual Table 3.5 (<=25 severe, 26-50 moderate, 51-75 mild).",
+      "agriculture": "Share of cropland whose August-to-date peak NDVI exceeds 0.6, vs normal years; same deviation classes as remote sensing.",
+      "category": "Severe if all three impact indicators are severe; moderate if two of three are moderate or severe; otherwise normal (Manual, Trigger-2). Field verification (Step 3) decides the final category.",
+      "adaptations": "MODIS PET is a land-surface potential, not the crop water need used in the manual's weekly water balance, so MAI is compared with the unit's own normal years. Cropped area is a satellite estimate, not Agriculture Department sowing returns."
+    }
+  },
+  "provenance": [
+    {
+      "key": "rain",
+      "dataset": "CHIRPS v2.0 daily rainfall",
+      "provider": "UC Santa Barbara Climate Hazards Center",
+      "source": "UCSB-CHG/CHIRPS/DAILY",
+      "resolution_m": 5566,
+      "license": "Public domain (CC0)",
+      "used_for": "Seasonal rainfall deviation and dry spells (normal: 1991-2020)",
+      "citation": "Funk et al. (2015), Scientific Data 2:150066"
+    },
+    {
+      "key": "veg",
+      "dataset": "MODIS Terra surface reflectance 8-day, MOD09A1 v6.1",
+      "provider": "NASA LP DAAC",
+      "source": "MODIS/061/MOD09A1",
+      "resolution_m": 500,
+      "license": "NASA, free and open",
+      "used_for": "NDVI and NDWI deviation, VCI (2001-2025), cropped area",
+      "citation": "Vermote (2021), MOD09A1 v061, doi:10.5067/MODIS/MOD09A1.061"
+    },
+    {
+      "key": "et",
+      "dataset": "MODIS Terra evapotranspiration 8-day, MOD16A2 v6.1 (and gap-filled MOD16A2GF)",
+      "provider": "NASA LP DAAC",
+      "source": "MODIS/061/MOD16A2; MODIS/061/MOD16A2GF",
+      "resolution_m": 500,
+      "license": "NASA, free and open",
+      "used_for": "Moisture Adequacy Index (AET / PET)",
+      "citation": "Running et al. (2021), MOD16A2 v061, doi:10.5067/MODIS/MOD16A2.061"
+    },
+    {
+      "key": "crop",
+      "dataset": "ESA WorldCover 2021 v200",
+      "provider": "European Space Agency",
+      "source": "ESA/WorldCover/v200",
+      "resolution_m": 10,
+      "license": "CC BY 4.0",
+      "used_for": "Cropland mask (class 40)",
+      "citation": "Zanaga et al. (2022), doi:10.5281/zenodo.7254221"
+    },
+    {
+      "key": "manual",
+      "dataset": "Manual for Drought Management (2016)",
+      "provider": "Ministry of Agriculture & Farmers Welfare, Government of India",
+      "source": "agricoop.gov.in",
+      "license": "Government of India",
+      "used_for": "Indicators, thresholds, Trigger-1 and Trigger-2 rules"
+    },
+    {
+      "key": "boundaries",
+      "dataset": "Indian Village Boundaries, Maharashtra (Census 2001 villages)",
+      "provider": "DataMeet community",
+      "source": "github.com/datameet/indian_village_boundaries",
+      "license": "ODbL 1.0",
+      "used_for": "Village boundaries; talukas and districts are built by merging villages. Some taluka names and boundaries have changed since 2001."
+    }
+  ],
+  "event_counts": {
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  "current_stage": "outputs",
+  "season": {
+    "year": 2026,
+    "rain_start": "2026-06-01",
+    "rain_end": "2026-09-30",
+    "veg_end": "2026-10-08",
+    "et_end": "2026-10-08",
+    "rs_start": "2026-09-22"
+  }
+}

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 
@@ -22,6 +23,18 @@ FILENAME_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,120}$")
 app = FastAPI(title="Pik-drishti AI", version="0.1.0", dependencies=[Depends(auth.require_user)])
 auth.register(app)
 executor = ThreadPoolExecutor(max_workers=2)
+
+
+SEED_DIR = REPO_ROOT / "seed" / "jobs"
+
+
+@app.on_event("startup")
+def seed_demo_jobs() -> None:
+    """Hosted copies start with an empty disk: copy the bundled demo results in, once."""
+    if SEED_DIR.is_dir():
+        for src in SEED_DIR.iterdir():
+            if src.is_dir() and not (settings.jobs_dir / src.name).exists():
+                shutil.copytree(src, settings.jobs_dir / src.name)
 
 
 @app.on_event("startup")

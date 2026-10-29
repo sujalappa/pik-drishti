@@ -1,0 +1,257 @@
+{
+  "id": "63beee7ecbcf",
+  "name": "Crop damage 27 Sep 2025: Madha (Solapur)",
+  "mode": "damage",
+  "created_at": "2026-10-28T15:21:12+00:00",
+  "finished_at": "2026-10-28T15:23:10+00:00",
+  "status": "completed",
+  "options": {
+    "taluka": "solapur--madha",
+    "event_date": "2025-09-27"
+  },
+  "aoi": null,
+  "stages": [
+    {
+      "id": "data",
+      "name": "Satellite passes",
+      "description": "Radar and optical images around the event",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:52+00:00",
+      "finished_at": "2026-10-28T15:21:59+00:00",
+      "summary": "Radar after: 2025-09-30, 2025-10-05; optical after: 12 dates",
+      "metrics": {
+        "radar_after": [
+          "2025-09-30",
+          "2025-10-05"
+        ],
+        "radar_before": [
+          "2025-09-18",
+          "2025-09-23"
+        ],
+        "optical_after": [
+          "2025-10-05",
+          "2025-10-07",
+          "2025-10-10",
+          "2025-10-12",
+          "2025-10-14",
+          "2025-10-15",
+          "2025-10-17",
+          "2025-10-20",
+          "2025-10-22",
+          "2025-10-25",
+          "2025-10-27",
+          "2025-10-30"
+        ],
+        "orbits": [
+          "DESCENDING"
+        ]
+      },
+      "preview": null
+    },
+    {
+      "id": "damage",
+      "name": "Flooding and crop loss",
+      "description": "Sentinel-1 radar and Sentinel-2 crop condition",
+      "status": "done",
+      "started_at": "2026-10-28T15:21:59+00:00",
+      "finished_at": "2026-10-28T15:22:27+00:00",
+      "summary": "12,579 ha of 124,161 ha cropland damaged; 1 villages to verify first",
+      "metrics": {
+        "crop_ha": 124161,
+        "damaged_ha": 12579,
+        "verify_first": 1
+      },
+      "preview": null
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "description": "Flooded and damaged cropland",
+      "status": "done",
+      "started_at": "2026-10-28T15:22:27+00:00",
+      "finished_at": "2026-10-28T15:23:10+00:00",
+      "summary": "Damage layer ready",
+      "metrics": {},
+      "preview": null
+    },
+    {
+      "id": "outputs",
+      "name": "Report and exports",
+      "description": "Verification list, PDF, CSV and KML",
+      "status": "done",
+      "started_at": "2026-10-28T15:23:10+00:00",
+      "finished_at": "2026-10-28T15:23:10+00:00",
+      "summary": "Verification list, PDF, CSV, GeoJSON and KML ready",
+      "metrics": {},
+      "preview": null
+    }
+  ],
+  "outputs": {
+    "layers": {
+      "units": {
+        "file": "units.geojson",
+        "label": "Village boundaries"
+      }
+    },
+    "rasters": {
+      "damage": {
+        "file": "damage.png",
+        "corners": [
+          [
+            75.02015,
+            18.26377
+          ],
+          [
+            75.70416,
+            18.26377
+          ],
+          [
+            75.70416,
+            17.87692
+          ],
+          [
+            75.02015,
+            17.87692
+          ]
+        ],
+        "label": "Damaged and flooded cropland (Sentinel-1, Sentinel-2)",
+        "legend": {
+          "type": "categorical",
+          "items": [
+            {
+              "label": "Moderate crop loss",
+              "color": "#f2b134"
+            },
+            {
+              "label": "Severe crop loss",
+              "color": "#c0392b"
+            },
+            {
+              "label": "Flooded",
+              "color": "#1f6fd1"
+            }
+          ]
+        }
+      }
+    },
+    "exports": {
+      "pdf": {
+        "file": "damage_report.pdf",
+        "label": "PDF report"
+      },
+      "csv": {
+        "file": "verification_list.csv",
+        "label": "Verification list (CSV)"
+      },
+      "geojson": {
+        "file": "damage.geojson",
+        "label": "Map data (GeoJSON)"
+      },
+      "kml": {
+        "file": "damage.kml",
+        "label": "Google Earth (KML)"
+      }
+    }
+  },
+  "summary": {
+    "kind": "damage",
+    "unit": "village",
+    "units": 119,
+    "crop_ha": 124161,
+    "damaged_ha": 12579,
+    "damaged_pct": 10.1,
+    "verify_first": 1,
+    "event_date": "2025-09-27",
+    "method": {
+      "flood": "Sentinel-1 VV after the event vs the same weeks in 2019-2024 at each pixel; flooded if -2.0 standard deviations below normal and darker than -15.0 dB.",
+      "loss": "Sentinel-2 NDVI 7-35 days after the event vs the same weeks in 2019-2024; loss >= 50% severe, 25-50% moderate, counted only where the drop is also unusual for that pixel (-1.5 standard deviations).",
+      "damaged": "Damaged crop area = flooded, or moderate/severe NDVI loss.",
+      "flag": "Villages with 33% or more of their crop area damaged, or 10% or more flooded, are listed first for field verification (SDRF input subsidy needs 33% crop loss).",
+      "limits": "Radar misses water under tall, dense crops; NDVI loss can also come from early harvest. A screening for field verification, not a loss certificate."
+    },
+    "taluka": "Madha",
+    "district": "Solapur"
+  },
+  "provenance": [
+    {
+      "key": "s1",
+      "dataset": "Sentinel-1 SAR GRD (C-band, VV)",
+      "provider": "European Space Agency / Copernicus",
+      "source": "COPERNICUS/S1_GRD",
+      "resolution_m": 10,
+      "license": "Copernicus open licence",
+      "used_for": "Flooded and waterlogged cropland after the event (Z-score against 2019-2024)",
+      "citation": "DeVries et al. (2020), Remote Sensing of Environment 240:111664; UN-SPIDER recommended practice"
+    },
+    {
+      "key": "s2",
+      "dataset": "Sentinel-2 L2A surface reflectance (harmonized) with Cloud Score+",
+      "provider": "European Space Agency / Copernicus; Google",
+      "source": "COPERNICUS/S2_SR_HARMONIZED; GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED",
+      "resolution_m": 10,
+      "license": "Copernicus open licence",
+      "used_for": "NDVI after the event vs normal years (crop loss)",
+      "citation": "Pasquarella et al. (2023), Cloud Score+, CVPR Workshops"
+    },
+    {
+      "key": "crop",
+      "dataset": "ESA WorldCover 2021 v200",
+      "provider": "European Space Agency",
+      "source": "ESA/WorldCover/v200",
+      "resolution_m": 10,
+      "license": "CC BY 4.0",
+      "used_for": "Cropland mask (class 40)"
+    },
+    {
+      "key": "water",
+      "dataset": "JRC Global Surface Water v1.4",
+      "provider": "European Commission JRC",
+      "source": "JRC/GSW1_4/GlobalSurfaceWater",
+      "resolution_m": 30,
+      "license": "CC BY 4.0",
+      "used_for": "Excludes rivers, lakes and reservoirs",
+      "citation": "Pekel et al. (2016), Nature 540:418-422"
+    },
+    {
+      "key": "boundaries",
+      "dataset": "Indian Village Boundaries, Maharashtra (Census 2001 villages)",
+      "provider": "DataMeet community",
+      "source": "github.com/datameet/indian_village_boundaries",
+      "license": "ODbL 1.0",
+      "used_for": "Village boundaries; talukas and districts are built by merging villages. Some taluka names and boundaries have changed since 2001."
+    }
+  ],
+  "event_counts": {
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  "current_stage": "outputs",
+  "acquisitions": {
+    "radar_after": [
+      "2025-09-30",
+      "2025-10-05"
+    ],
+    "radar_before": [
+      "2025-09-18",
+      "2025-09-23"
+    ],
+    "optical_after": [
+      "2025-10-05",
+      "2025-10-07",
+      "2025-10-10",
+      "2025-10-12",
+      "2025-10-14",
+      "2025-10-15",
+      "2025-10-17",
+      "2025-10-20",
+      "2025-10-22",
+      "2025-10-25",
+      "2025-10-27",
+      "2025-10-30"
+    ],
+    "orbits": [
+      "DESCENDING"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+﻿Village,Crop area (ha),Flooded %,Damaged %,Damaged (ha),Severe %,NDVI loss %,Verify first
+Wakav,617.5,19.5,26.5,163.8,22.6,17.6,True
+Mhaisgaon,2381.3,2.8,16.8,400.5,9.6,13.9,False
+Tembhurni,3777.8,0.2,10.1,381.0,4.8,9.8,False
+Laul,3484.7,1.0,8.9,308.6,4.5,9.6,False
+Bembale,2349.0,0.9,12.3,288.4,5.0,11.5,False
+Manegaon,3399.1,2.1,8.3,280.8,5.2,9.6,False
+Kurdu,3342.5,1.5,7.8,261.0,4.2,8.5,False
+Chobhepimpari,2051.8,1.1,11.5,235.4,6.3,11.3,False
+Upalai Bk.,3259.9,1.2,7.2,234.2,3.8,8.5,False
+Ropale Kavhe,2623.1,2.4,8.5,223.8,5.5,10.7,False
+Tulshi,2339.9,0.9,9.3,217.5,4.8,11.1,False
+Pimpalner,2102.9,0.5,9.7,204.4,5.1,9.5,False
+Chandaj,1004.8,0.3,20.1,201.7,8.9,15.8,False
+Dhavalas,1438.9,1.1,14.0,201.0,8.3,15.0,False
+Lahu,972.6,2.6,19.9,193.7,11.6,15.3,False
+Darfal,1468.5,3.8,13.0,191.6,8.9,11.7,False
+Tandulwadi,1077.6,6.1,17.6,189.6,11.4,14.5,False
+Upalai Kh.,2553.9,1.7,7.2,184.7,4.4,9.1,False
+Khairao,1255.8,7.9,14.7,184.4,11.5,11.3,False
+Ghoti,1918.7,1.4,9.5,181.7,4.6,9.7,False
+Wadshinge,2181.6,2.1,8.3,180.1,5.0,8.7,False
+Anjangaon Umate,2113.0,0.9,8.1,171.0,5.0,10.3,False
+Kavhe,1950.6,0.7,8.7,170.6,4.7,9.7,False
+Dahiwali,1402.7,0.4,12.1,170.0,5.7,10.7,False
+Nimgaon [Tembhurni],1169.9,0.9,14.4,168.1,8.6,12.6,False
+Barloni,1920.0,1.3,8.7,167.3,4.5,9.0,False
+Kewad,1300.2,5.1,12.9,167.2,8.9,11.7,False
+Takali Tembhurni,979.0,0.2,16.2,158.4,7.3,13.9,False
+Pimpalkhunte,1285.1,2.1,12.1,155.4,6.8,11.9,False
+Kanhergaon,1212.4,0.5,12.1,146.5,5.8,11.7,False
+Kumbhej,1004.2,8.3,14.5,146.0,11.3,11.8,False
+Anjangaon Kh.,1726.5,1.2,8.4,145.3,4.8,9.4,False
+Madha,2131.9,1.6,6.8,144.1,4.0,8.1,False
+Upalawate,1352.3,1.4,10.6,143.4,5.8,9.9,False
+Sapatne Tembhurni,1387.1,0.6,10.1,139.9,5.4,10.2,False
+Undargaon,1395.6,6.0,10.0,139.2,7.9,9.1,False
+Alegaon Bk,794.3,0.3,17.3,137.3,8.3,14.2,False
+Aran,2341.4,0.8,5.7,134.1,2.8,6.8,False
+Shiral Tembhurni,814.9,0.2,15.7,127.6,9.1,15.1,False
+Bhend,1455.2,1.6,8.6,124.8,4.9,9.2,False
+Papnas,518.9,8.4,24.1,124.8,15.7,18.1,False
+Ujani Madha,1173.1,0.8,10.5,123.5,5.5,11.3,False
+Alegaon Kh,628.0,0.2,19.2,120.3,8.7,15.6,False
+Adhegaon,799.9,0.1,14.9,119.4,7.0,12.6,False
+Nimgaon (Madha),763.2,6.2,15.5,118.1,10.4,12.9,False
+Ridhore,847.3,2.6,13.8,117.0,7.3,11.1,False
+Akole Kh,776.4,0.3,15.1,116.9,6.3,13.1,False
+Hole Kh.,1142.7,0.7,10.1,115.2,5.2,10.4,False
+Parite,1137.4,1.8,9.8,111.7,4.1,9.7,False
+Akole Bk,1109.9,1.4,9.9,109.6,4.6,8.9,False
+Shevare,808.5,0.2,12.2,99.0,5.8,12.7,False
+Ranzani,595.6,0.2,16.5,98.4,8.8,15.2,False
+Nagorli,769.8,0.2,11.8,91.1,5.6,10.6,False
+Sapatne (Bhose),1249.1,1.2,7.3,90.7,3.9,8.5,False
+Wadachiwadi,1124.6,1.2,8.0,90.4,4.7,10.1,False
+Akulgaon,1106.8,1.5,7.9,87.7,4.4,9.2,False
+Sultanpur,431.1,6.8,20.3,87.5,14.9,15.6,False
+Warawade,1099.9,1.2,7.9,86.5,3.7,8.8,False
+Gar Akole,553.4,0.5,15.5,85.7,6.1,12.8,False
+Padasali,1072.4,1.4,7.9,84.8,4.2,9.7,False
+Bhosare,1098.2,1.8,7.7,84.7,4.6,8.9,False
+Bitergaon,863.4,1.4,9.6,83.3,6.2,10.8,False
+Bavi,1184.9,0.6,6.9,81.8,3.6,9.2,False
+Malegaon,744.3,0.1,10.9,81.0,6.2,11.7,False
+Loni,688.0,1.2,11.5,79.0,7.1,12.6,False
+Chinchgaon,910.1,1.0,8.7,78.7,5.0,9.1,False
+Wadoli,487.0,0.1,15.8,77.2,7.1,13.8,False
+Ambad,622.4,1.2,12.4,77.1,7.4,13.8,False
+Shiral Madha,985.0,1.8,7.8,77.1,4.4,8.1,False
+Bhutashte,1262.8,0.9,6.0,76.1,3.3,7.9,False
+Shedshinge,791.7,1.0,9.3,73.5,5.1,9.8,False
+Ahergaon,753.8,0.9,9.6,72.4,4.3,9.9,False
+Tadavale,889.9,1.9,8.1,72.1,5.1,9.6,False
+Paritewadi,1035.2,1.4,6.9,71.3,3.9,7.4,False
+Tambave,613.6,0.7,11.6,71.1,5.5,10.3,False
+Modnimb,1167.6,0.6,5.7,66.0,3.2,6.7,False
+Venegaon,604.1,0.8,10.5,63.7,5.3,9.9,False
+Mungashi,600.5,2.0,10.6,63.4,6.3,10.6,False
+Chincholi,991.0,1.0,6.2,61.4,3.3,7.5,False
+Akumbhe,670.5,1.0,9.1,60.9,3.9,9.5,False
+Solankarwadi,784.3,1.0,7.2,56.4,4.0,8.4,False
+Jadhavwadi,740.3,0.7,7.2,53.4,4.0,9.0,False
+Ropale Kh.,645.4,0.7,8.2,53.1,4.3,9.8,False
+Mahadeowadi,544.9,0.7,9.5,51.9,4.5,8.7,False
+Dhanore,879.2,0.4,5.7,50.1,2.6,7.2,False
+Bairagwadi,691.1,1.0,7.1,49.0,3.9,9.0,False
+Shingewadi,405.0,1.5,11.9,48.0,5.9,10.5,False
+Palwan,512.6,0.5,9.3,47.8,5.1,10.0,False
+Chavhanwadi,730.4,0.3,6.5,47.1,2.6,7.1,False
+Jamgaon,530.9,1.0,8.7,46.2,4.4,10.4,False
+Rui,339.2,0.2,12.9,43.7,3.8,13.3,False
+Jakhale,527.3,0.8,7.9,41.7,4.5,9.8,False
+Ghatane,545.4,1.1,7.6,41.3,3.6,8.2,False
+Gavalewadi,428.0,1.4,9.3,39.7,5.1,9.9,False
+Mahatpur,516.4,1.2,7.7,39.6,4.4,8.3,False
+Mitkalwadi,302.0,0.1,12.9,39.0,4.6,12.0,False
+Badalewadi,423.6,1.5,9.0,38.2,4.5,8.4,False
+Bhogewadi,570.6,2.2,6.6,37.9,4.5,9.7,False
+Ujani Tembhurni,224.2,0.4,15.7,35.2,10.0,14.7,False
+Kurduwadi(Kurduvadi (M Cl)),477.9,1.5,6.8,32.4,3.8,7.8,False
+Footjawalgaon,254.9,0.3,12.4,31.5,4.7,11.8,False
+Bhuinje,308.5,1.2,9.8,30.3,5.3,10.1,False
+Nadi,355.9,1.3,8.5,30.3,3.7,7.5,False
+Wadachiwadi,401.8,2.2,7.2,29.1,4.6,10.1,False
+Wadachiwadi,388.4,0.7,7.1,27.5,4.3,9.3,False
+Vithalwadi,640.4,1.5,4.3,27.3,2.9,5.7,False
+Shindewadi,356.3,1.2,6.7,23.9,3.3,8.5,False
+Kapsewadi,379.2,0.8,6.3,23.8,3.1,9.8,False
+Wetalwadi,285.6,1.2,7.2,20.6,3.9,10.2,False
+Surli,158.5,0.1,12.4,19.7,5.9,13.1,False
+Jadhavwadi,369.8,1.0,5.3,19.5,3.3,6.4,False
+Budrukwadi,277.9,0.8,6.5,18.1,3.7,7.8,False
+Khairewadi,312.0,0.6,5.1,15.9,2.7,8.0,False
+Londhewadi,271.7,0.9,5.4,14.7,2.6,7.0,False
+Hatkarwadi,137.3,0.2,10.6,14.5,5.9,12.9,False
+Randivewadi,285.7,1.1,5.0,14.2,2.6,7.9,False
+Panch Phulwadi,112.2,1.7,8.3,9.3,4.3,7.9,False
+Chavhanwadi,29.3,1.9,8.6,2.5,3.8,11.9,False
+,6.6,4.0,11.9,0.8,5.7,7.4,False
