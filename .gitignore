@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*service-account*.json
+animated-sign-*.json
+data/jobs/
+data/cache/
+data/boundaries/raw/
+data/server.log
+data/users.json
+frontend/node_modules/
+frontend/dist/
+frontend/public/maplibre/
+presentation/~$*
