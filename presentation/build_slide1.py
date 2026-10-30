@@ -12,6 +12,7 @@ from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Inches, Pt
 
 HERE = Path(__file__).resolve().parent
+BUMP = 1  # pt added to every text size in this deck, for readability
 DEMO_LINK = "pik-drishti.onrender.com"  # live demo on Render
 
 CONFIG = {
@@ -21,6 +22,7 @@ CONFIG = {
     "line": "Village-level satellite evidence for drought declaration and crop-loss panchanama, following the "
             "Government of India drought manual. For revenue and agriculture departments.",
     "subtheme": "Sub-theme: Farmer income protection, market access and digital crop-loss assessment",
+    "team": None,
     "image": "img/app_drought.png",
     "facts": ["All 365 talukas in ~1 min; every village of a taluka in ~2 min",
               "Trigger-1 matches the official 2026 list in Jalgaon (15/15)"],
@@ -46,7 +48,7 @@ def set_text(shape, runs, size, color, bold=False, italic=False):
         if proto is not None:
             r._r.insert(0, copy.deepcopy(proto))
         r.text = text
-        r.font.size, r.font.bold, r.font.italic = Pt(size), b if b is not None else bold, italic
+        r.font.size, r.font.bold, r.font.italic = Pt(size + BUMP), b if b is not None else bold, italic
         r.font.color.rgb = col or color
 
 
@@ -63,7 +65,7 @@ def textbox(slide, x, y, w, h, paras, size, color, anchor=MSO_ANCHOR.TOP):
         for text, b, col in runs:
             r = p.add_run()
             r.text = text
-            r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(size), b, col or color
+            r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(size + BUMP), b, col or color
     return tb
 
 
@@ -102,11 +104,12 @@ def main(cfg=CONFIG):
     set_text(sh["Text 2"], [(cfg["line"], False, None)], 13, SOFT, italic=False)
     sh["Text 2"].height = Inches(0.9)
     textbox(s, 0.5, 3.0, 5.4, 0.3, [[(cfg["subtheme"], True, ORANGE)]], 10.5, ORANGE)
-    textbox(s, 0.5, 4.05, 5.6, 0.75, [
-        [("Sujal Chondekar  ·  Kshitij Mehrotra", True, WHITE)],
-        [("Mentor: Dr. Swati Hira, Assistant Professor, CSE", False, SOFT)],
-        [("Indian Institute of Information Technology, Nagpur", False, SOFT)],
-    ], 10.5, WHITE)
+    if cfg.get("team"):
+        textbox(s, 0.5, 4.05, 5.6, 0.75, [
+            [(cfg["team"], True, WHITE)],
+            [("Mentor: Dr. Swati Hira, Assistant Professor, CSE", False, SOFT)],
+            [("Indian Institute of Information Technology, Nagpur", False, SOFT)],
+        ], 10.5, WHITE)
 
     # Right card: replace the "How to use this template" guidance with a prototype card.
     card = sh["Shape 15"]

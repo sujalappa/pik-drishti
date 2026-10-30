@@ -14,6 +14,7 @@ from pptx.oxml.ns import qn
 from pptx.util import Inches, Pt
 
 HERE = Path(__file__).resolve().parent
+BUMP = 1  # pt added to every text size in this deck, for readability
 SRC, OUT = HERE / "template_original.pptx", HERE / "Pik-drishti_AI_Seva_2026.pptx"
 
 INK = RGBColor(0x1F, 0x29, 0x37)
@@ -45,7 +46,7 @@ def fill(shape, paras, color=INK, size=10, bullets=False, space_after=3):
             f = r.font
             f.italic = False
             f.bold = bold
-            f.size = Pt(size)
+            f.size = Pt(size + BUMP)
             f.color.rgb = color
         p.space_after = Pt(space_after)
         if bullets:

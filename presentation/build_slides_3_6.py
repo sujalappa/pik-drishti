@@ -15,6 +15,7 @@ from pptx.oxml.ns import qn
 from pptx.util import Inches, Pt
 
 HERE = Path(__file__).resolve().parent
+BUMP = 1  # pt added to every text size in this deck, for readability
 DECK = HERE / "Pik-drishti_AI_Seva_2026.pptx"
 DEMO_LINK = "pik-drishti.onrender.com"  # live demo on Render
 
@@ -48,7 +49,7 @@ def fill(shape, paras, color=INK, size=10, bullets=False, space_after=3, bold=Fa
             r.text = text
             r.font.italic = False
             r.font.bold = b
-            r.font.size = Pt(size)
+            r.font.size = Pt(size + BUMP)
             r.font.color.rgb = color
         p.space_after = Pt(space_after)
         if align is not None:
@@ -78,7 +79,7 @@ def textbox(slide, x, y, w, h, paras, size=9, color=INK, align=PP_ALIGN.LEFT, an
         for text, b, col in ([(para, False, color)] if isinstance(para, str) else para):
             r = p.add_run()
             r.text = text
-            r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(size), b, col
+            r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(size + BUMP), b, col
     return tb
 
 
@@ -108,7 +109,7 @@ def set_cell(cell, text, bold=False, color=INK, size=9):
     if proto is not None:
         r._r.insert(0, copy.deepcopy(proto))
     r.text = text
-    r.font.italic, r.font.bold, r.font.size, r.font.color.rgb = False, bold, Pt(size), color
+    r.font.italic, r.font.bold, r.font.size, r.font.color.rgb = False, bold, Pt(size + BUMP), color
 
 
 prs = Presentation(DECK)
@@ -117,9 +118,8 @@ S = {i + 1: {sh.name: sh for sh in prs.slides[i].shapes} for i in range(len(prs.
 # ---------------------------------------------------------------- slide 3: solution
 s3, sh = prs.slides[2], S[3]
 sh["Text 6"].width = Inches(2.3)
-fill(sh["Text 6"], [[("Pik-drishti AI", True), (" turns free satellite data into village-level "
-                     "evidence: which talukas meet the ", False), ("drought manual's triggers", True),
-                     (", and which villages lost crops to floods, ranked for ", False), ("panchanama", True),
+fill(sh["Text 6"], [[("Pik-drishti AI", True), (" turns free satellite data into village evidence for the ", False),
+                     ("drought manual's triggers", True), (" and for crop-loss ", False), ("panchanama", True),
                      (".", False)]], size=9.5)
 pic = s3.shapes.add_picture(str(HERE / "img" / "app_drought.png"), Inches(2.9), Inches(1.6), width=Inches(1.9))
 pic.line.color.rgb = RGBColor(0xD9, 0xDE, 0xEA)
@@ -132,10 +132,10 @@ fill(sh["Text 18"], ["Reads rainfall, radar and crop greenness; applies the drou
 fill(sh["Text 24"], ["Village map, ranked verification list, PDF, CSV and KML"], size=8.5, align=PP_ALIGN.CENTER)
 table = sh["Table 0"].table
 rows = [
-    ("Cost", "Staff visits to every village; drones extra", "Free open satellite data; one small server"),
-    ("Speed / time", "Weeks to 2 months per district", "All talukas ~1 min; a taluka's villages ~2 min"),
-    ("Reach / access", "Limited by field staff; farms get missed", "All 48,926 villages, every season"),
-    ("Ease of use", "Paper forms, manual compiling", "Web map, ready PDF and KML; no GIS skills"),
+    ("Cost", "Staff visit every village", "Free satellite data; small server"),
+    ("Speed / time", "Weeks to 2 months a district", "Talukas ~1 min; villages ~2 min"),
+    ("Reach / access", "Field staff miss farms", "All 48,926 villages, each season"),
+    ("Ease of use", "Paper forms, manual totals", "Web map, PDF, KML; no GIS"),
 ]
 for i, (label, old, new) in enumerate(rows, start=1):
     set_cell(table.cell(i, 0), label, bold=True, color=NAVY, size=9)
@@ -156,10 +156,9 @@ fill(sh["Text 12"], [[("Working Prototype", True)]], color=ORANGE, size=10, alig
 textbox(s4, 5.3, 1.28, 4.2, 0.28, [[("Live prototype: ", True, NAVY), (DEMO_LINK, True, ORANGE)]], size=10.5,
         align=PP_ALIGN.RIGHT, name="Demo link")
 fill(sh["Text 19"], [
-    [("Google Earth Engine", True), (" for all satellite processing", False)],
-    [("Python + React", True), (" web app with maps", False)],
-    [("Data: ", True), ("CHIRPS, MODIS, Sentinel-1, Sentinel-2, ESA WorldCover", False)],
-    [("Next: drone survey", True), (" of flagged villages, reusing our Van-drishti drone pipeline", False)],
+    [("Google Earth Engine", True), (" + web map app", False)],
+    [("Data: ", True), ("CHIRPS, MODIS, Sentinel-1/2, WorldCover", False)],
+    [("Next: drone survey", True), (" of flagged villages", False)],
 ], size=9, bullets=True)
 fill(sh["Text 22"], [
     [("Data: ₹0", True), (" (free NASA, ESA and CHC data)", False)],
@@ -168,10 +167,12 @@ fill(sh["Text 22"], [
     [("District pilot: under ₹1 lakh", True), (", mostly field checks", False)],
 ], size=9, bullets=True)
 fill(sh["Text 25"], [
-    [("3 months: ", True), ("pilot in one district on the kharif 2026 drought; compare with panchanamas", False)],
-    [("6 months: ", True), ("drone surveys over flagged villages for plot-level damage; Marathi interface", False)],
-    [("12 months: ", True), ("statewide, with farm boundaries from land records", False)],
+    [("3 months: ", True), ("district pilot on the 2026 drought vs panchanamas", False)],
+    [("6 months: ", True), ("drone surveys of flagged villages; Marathi app", False)],
+    [("12 months: ", True), ("statewide, with land-record farm boundaries", False)],
 ], size=9, bullets=True)
+# not yet engaged: named as the bodies we will approach for the pilot
+fill(sh["Text 27"], [[("Partners to approach", True)]], color=NAVY, size=12 - BUMP)  # match the other headings
 fill(sh["Text 28"], [
     "Relief & Rehabilitation Department, GoM",
     "Agriculture Department (taluka agriculture officers)",
@@ -213,11 +214,9 @@ textbox(s5, 0.5, 5.12, 5.4, 0.3, ["Sources: Govt of Maharashtra relief aid of �
 # ---------------------------------------------------------------- slide 6: team
 s6, sh = prs.slides[5], S[6]
 team = [
-    ("Text 6", "Text 7", "Text 8", "Text 9", "SC", "Sujal Chondekar", "Lead developer",
+    ("Text 6", "Text 7", "Text 8", "Text 9", "SC", "Sujal Chondekar", "Developer",
      "B.Tech CSE, IIIT Nagpur · satellite analysis, web app"),
-    ("Text 12", "Text 13", "Text 14", "Text 15", "KM", "Kshitij Mehrotra", "Developer",
-     "B.Tech CSE, IIIT Nagpur · data and validation"),
-    ("Text 18", "Text 19", "Text 20", "Text 21", "SH", "Dr. Swati Hira", "Faculty mentor",
+    ("Text 12", "Text 13", "Text 14", "Text 15", "SH", "Dr. Swati Hira", "Faculty mentor",
      "Assistant Professor, CSE, IIIT Nagpur"),
 ]
 for photo, name, role, qual, initials, n, r, q in team:
@@ -225,14 +224,16 @@ for photo, name, role, qual, initials, n, r, q in team:
     fill(sh[name], [[(n, True)]], color=WHITE, size=10.5)
     fill(sh[role], [r], color=ORANGE, size=9)
     fill(sh[qual], [q], color=RGBColor(0xC9, 0xD2, 0xEC), size=8)
-remove(s6, {"Shape 22", "Shape 23", "Text 24", "Text 25", "Text 26", "Text 27"})
+remove(s6, {"Shape 16", "Shape 17", "Text 18", "Text 19", "Text 20", "Text 21",
+            "Shape 22", "Shape 23", "Text 24", "Text 25", "Text 26", "Text 27"})
+sh["Text 28"].top = Inches(2.8)
 fill(sh["Text 28"], ["Indian Institute of Information Technology, Nagpur"], color=RGBColor(0xC9, 0xD2, 0xEC), size=9.5)
 for box in ("Shape 31", "Shape 33", "Shape 35"):
     tick(s6, sh[box], size=8)
 fill(sh["Text 41"], ["A district pilot with the Relief & Rehabilitation and Agriculture Departments would let us "
                      "test the village list against panchanamas and make it the first step of every drought and "
                      "crop-loss assessment."], size=9)
-sh["Text 42"].top, sh["Text 42"].height = Inches(4.62), Inches(0.5)
+sh["Text 42"].top, sh["Text 42"].height = Inches(3.25), Inches(0.6)
 fill(sh["Text 42"], [[("Thank you  |  sujalchondhekar@gmail.com", True)],
                      [("Live demo: ", True), (DEMO_LINK, True)]], color=ORANGE, size=10.5, space_after=2)
 
