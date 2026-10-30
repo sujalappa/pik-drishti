@@ -12,7 +12,7 @@ from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Inches, Pt
 
 HERE = Path(__file__).resolve().parent
-DEMO_LINK = "[deployment link]"  # replace with the live demo URL once deployed
+DEMO_LINK = "pik-drishti.onrender.com"  # live demo on Render
 
 CONFIG = {
     "deck": "Pik-drishti_AI_Seva_2026.pptx",
@@ -67,6 +67,19 @@ def textbox(slide, x, y, w, h, paras, size, color, anchor=MSO_ANCHOR.TOP):
     return tb
 
 
+def link_demo(prs):
+    """Make every occurrence of the demo link clickable (slides 1, 4 and 6)."""
+    if DEMO_LINK.startswith("["):
+        return
+    for slide in prs.slides:
+        for shape in slide.shapes:
+            if shape.has_text_frame:
+                for p in shape.text_frame.paragraphs:
+                    for r in p.runs:
+                        if r.text.strip() == DEMO_LINK:
+                            r.hyperlink.address = "https://" + DEMO_LINK
+
+
 def main(cfg=CONFIG):
     deck = HERE / cfg["deck"]
     prs = Presentation(deck)
@@ -93,6 +106,7 @@ def main(cfg=CONFIG):
     top = y + pic.height / 914400 + 0.15
     textbox(s, x, top, w, 1.2, [[("• " + f, False, WHITE)] for f in cfg["facts"]] +
             [[("Live demo: ", True, WHITE), (DEMO_LINK, True, ORANGE)]], 10, WHITE)
+    link_demo(prs)
     prs.save(deck)
     print("saved", deck)
 

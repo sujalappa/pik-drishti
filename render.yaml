@@ -11,6 +11,8 @@ services:
         value: curious-subject-513110-r4
       - key: GEE_SERVICE_ACCOUNT_KEY
         sync: false
+      - key: PIKDRISHTI_REQUIRE_LOGIN    # open demo; set to true to require sign-in
+        value: "false"
       - key: PIKDRISHTI_ADMIN_USER
         value: admin
       - key: PIKDRISHTI_ADMIN_PASSWORD

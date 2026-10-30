@@ -16,7 +16,7 @@ from pptx.util import Inches, Pt
 
 HERE = Path(__file__).resolve().parent
 DECK = HERE / "Pik-drishti_AI_Seva_2026.pptx"
-DEMO_LINK = "[deployment link]"  # replace with the live demo URL once deployed
+DEMO_LINK = "pik-drishti.onrender.com"  # live demo on Render
 
 INK = RGBColor(0x1F, 0x29, 0x37)
 NAVY = RGBColor(0x1B, 0x2A, 0x5C)
