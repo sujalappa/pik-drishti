@@ -71,6 +71,18 @@ def link_demo(prs):
     """Make every occurrence of the demo link clickable (slides 1, 4 and 6)."""
     if DEMO_LINK.startswith("["):
         return
+    # PowerPoint draws links in the theme's hyperlink colour (blue); use the deck's orange instead.
+    from lxml import etree
+    from pptx.opc.constants import RELATIONSHIP_TYPE as RT
+    theme = prs.slide_master.part.part_related_by(RT.THEME)
+    root = etree.fromstring(theme.blob)
+    ns = {"a": "http://schemas.openxmlformats.org/drawingml/2006/main"}
+    for tag in ("hlink", "folHlink"):
+        for el in root.findall(f".//a:clrScheme/a:{tag}", ns):
+            for child in list(el):
+                el.remove(child)
+            etree.SubElement(el, f"{{{ns['a']}}}srgbClr", val="F28C28")
+    theme._blob = etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
     for slide in prs.slides:
         for shape in slide.shapes:
             if shape.has_text_frame:
